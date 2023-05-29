@@ -11,3 +11,17 @@ header nav .navContainer .menu ul {
 header nav .navContainer .menu ul li a {
   color: var(--white);
 }
+
+header nav .navContainer .menu ul .navCall {
+  background-color: var(--white);
+}
+
+header nav .navContainer .menu ul .navCall a {
+  color: var(--blue);
+  display: block;
+  padding: 0.2rem 0.5rem;
+}
+
+header nav .navContainer .menu ul .navCall a .navCallIcon {
+  margin: 0 0 -0.15rem 0;
+}
