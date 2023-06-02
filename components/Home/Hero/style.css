@@ -1,26 +1,21 @@
 .hero {
-  height: 90vh;
-}
-
-.hero .heroContainer {
-  height: 85vh;
   background-image: url(../../../public/assets/heroImage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero .heroContainer .heroContainerChild {
+.hero .heroContainer {
   background: rgb(0, 34, 85);
   background: radial-gradient(
     circle,
     rgba(0, 34, 85, 1) -50%,
     rgba(0, 34, 85, 0.891281512605042) 100%
   );
-  height: 85vh;
 }
 
-.hero .heroContainer .heroContainerChild .heroCCLeft .heroContent {
-  margin: 0 2rem;
+.hero .heroContainer .heroContainerChild {
+  padding: 4rem 0;
+  border-radius: 0.3rem;
 }
 
 .hero .heroContainer .heroContainerChild .heroCCLeft h1 {
@@ -73,12 +68,21 @@
   color: var(--blue);
   margin: 1rem 1rem 0 0;
   display: block;
+  border-radius: 0.2rem;
+}
+
+.hero .heroContainer .heroContainerChild .heroCCRight {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .hero .heroContainer .heroContainerChild .heroCCRight .heroForm {
   width: 80%;
   padding: 1rem;
   background-color: var(--white);
+  border-radius: 0.3rem;
 }
 
 .hero .heroContainer .heroContainerChild .heroCCRight .heroForm h2 {

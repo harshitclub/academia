@@ -5,8 +5,8 @@ import EnquiryForm from '@/components/EnquiryForm/EnquiryForm'
 function Hero() {
   return (
     <section className="hero flex width100 alignCenter justifyCenter">
-        <div className="heroContainer width95 maxWidth">
-          <div className="heroContainerChild flex alignCenter justifyCenter spaceBtw">
+        <div className="heroContainer width100 flex alignCenter justifyCenter flexColumn">
+          <div className="heroContainerChild flex alignCenter justifyCenter spaceBtw maxWidth width95">
         <div className="heroCCLeft width50">
           <div className="heroContent">
           <h1>Welcome to 3a Academia</h1>

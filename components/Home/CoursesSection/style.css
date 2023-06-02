@@ -1,0 +1,85 @@
+.courseSection {
+  margin: 1rem 0;
+  padding: 2rem 0;
+}
+
+.courseSection .courseSContainer h2 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.courseSection .courseSContainer .courseSDivider {
+  width: 10%;
+  border-bottom: 1px solid var(--blue);
+  margin: 0.5rem 0 0 0;
+}
+
+.courseSection .courseSContainer .courseSDivider2 {
+  width: 7%;
+  border-bottom: 1px solid var(--blue);
+  margin: 0.3rem 0 0.5rem 0;
+}
+
+.courseSection .courseSContainer h3 {
+  margin: 0 0 2rem 0;
+  font-weight: 300;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--blue) !important;
+}
+
+.courseSection .courseSContainer .coursesTab .courseTBox {
+  width: 100%;
+  margin: 0 0 2.5rem 0;
+  cursor: e-resize;
+}
+
+.courseSection .courseSContainer .coursesTab .courseTBox .courseSBoxImg {
+  background: rgb(0, 34, 85);
+  background: radial-gradient(
+    circle,
+    rgba(0, 34, 85, 0.41228991596638653) -50%,
+    rgba(0, 34, 85, 0.21621148459383754) 100%
+  );
+  border-radius: 0.3rem;
+}
+
+.courseSection .courseSContainer .coursesTab .courseTBox img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+  z-index: -9;
+}
+
+.courseSection .courseSContainer .coursesTab .courseTBox .coursesTBoxC {
+  background-color: var(--blue);
+  color: var(--white);
+  margin: -4rem 0.3rem 0 0.3rem;
+  border-radius: 0.3rem;
+  z-index: 999;
+  padding: 0.5rem;
+}
+
+.courseSection .courseSContainer .coursesTab .courseTBox .coursesTBoxC h4 {
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.courseSIcon {
+  margin: 0 0 -0.15rem 0;
+}
+
+.courseSection .courseSContainer .coursesTab .courseTBox .coursesTBoxC p {
+  margin: 0 0 0.5rem 0;
+}
+
+.courseSection .courseSContainer .coursesTab .courseTBox .coursesTBoxC p a {
+  color: var(--blue);
+  background-color: var(--white);
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  padding: 0.2rem 1rem;
+}

@@ -1,0 +1,79 @@
+.WhyChoose {
+  margin: 0 0 10rem 0;
+  position: relative;
+}
+
+.WhyChoose .WhyChooseContainer {
+  background-color: var(--bWhite);
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+
+.WhyChoose .WhyChooseContainer h2 {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+
+.WhyChoose .WhyChooseContainer .whyChooseDivider {
+  width: 10%;
+  border-bottom: 1px solid var(--blue);
+  margin: 1rem 0 0 0;
+}
+
+.WhyChoose .WhyChooseContainer .whyChooseDivider2 {
+  width: 7%;
+  margin: 0.3rem 0 1rem 0;
+  border-bottom: 1px solid var(--blue);
+}
+
+.WhyChoose .WhyChooseContainer p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.WhyChoose .WhyChooseContainer .whyChooseTab {
+  gap: 1rem;
+  margin: 0 0 -8rem 0;
+}
+
+.WhyChoose .WhyChooseContainer .whyChooseTab .whyChooseTBox {
+  width: 33%;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.WhyChoose .WhyChooseContainer .whyChooseTab .whyChooseTBox h4 {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.WhyChoose
+  .WhyChooseContainer
+  .whyChooseTab
+  .whyChooseTBox
+  .whyChooseBoxDivider {
+  width: 15%;
+  border-bottom: 1px solid var(--white);
+  margin: 0.5rem 0 0.3rem 0;
+}
+
+.WhyChoose
+  .WhyChooseContainer
+  .whyChooseTab
+  .whyChooseTBox
+  .whyChooseBoxDivider2 {
+  width: 10%;
+  border-bottom: 1px solid var(--white);
+  margin: 0 0 0.5rem 0;
+}
+
+.WhyChoose .WhyChooseContainer .whyChooseTab .whyChooseTBox p {
+  font-size: 1rem;
+}
+
+.whyChooseIcons {
+  margin: 0 0 -0.2rem 0;
+}

@@ -16,11 +16,11 @@ export default function Home() {
     <main>
     <Hero/>
     <CoursesSection/>
+    <WhyChoose/>
+    <LearnSection/>
     <DAUExcel/>
     <DUAPBi/>
     <TableauSection/>
-    <LearnSection/>
-    <WhyChoose/>
     <Immersive/>
     <OurVision/>
     <FaqSection/>
