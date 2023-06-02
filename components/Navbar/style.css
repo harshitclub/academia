@@ -14,6 +14,7 @@ header nav .navContainer .menu ul li a {
 
 header nav .navContainer .menu ul .navCall {
   background-color: var(--white);
+  border-radius: 0.2rem;
 }
 
 header nav .navContainer .menu ul .navCall a {
