@@ -1,0 +1,70 @@
+.faq {
+  padding: 2rem 0 2rem 0;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.faq p {
+  font-size: 1.3rem;
+  margin: 0 0 2rem 0;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-weight: 300;
+}
+
+.faq .faqTab {
+  margin: 0 0 1rem 0;
+  transition: 0.3s;
+}
+
+.faq .faqTab .faqBox {
+  border: 1px dotted var(--blue);
+  border-radius: 0.2rem;
+  width: 49.5%;
+  padding: 0.7rem 1rem;
+  transition: 0.3s;
+}
+
+.faq .faqTab .faqBox:hover {
+  border: 1px dotted var(--blue);
+  transition: 0.3s;
+}
+
+.faq .faqTab .faqBox h4 {
+  font-size: 1.1rem;
+  font-weight: 300;
+
+  cursor: pointer;
+}
+
+.faq .faqTab .faqBox p {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  margin: 0.8rem 0 0 0;
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .faq h2 {
+    font-size: 2rem;
+  }
+
+  .faq p {
+    font-size: 1.1rem;
+  }
+
+  .faq .faqTab {
+    flex-direction: column;
+    margin: 0 0 0.3rem 0;
+  }
+
+  .faq .faqTab .faqBox {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}

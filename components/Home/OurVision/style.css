@@ -1,0 +1,35 @@
+.OurVisionSection {
+  margin: 0 0 3rem 0;
+}
+
+.OurVisionSection .OurVisionSContainer h2 {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+
+.OurVisionSection .OurVisionSContainer h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.OurVisionSection .OurVisionSContainer .ourVTab .ourVLeft h4 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.OurVisionSection .OurVisionSContainer .ourVTab .ourVLeft p {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.OurVisionSection .OurVisionSContainer .ourVTab .ourVRight img {
+  width: 30rem;
+  height: auto;
+}
+
+.visionIcons {
+  margin: 0 0 -0.2rem 0;
+  color: var(--blue);
+}

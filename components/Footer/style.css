@@ -1,0 +1,38 @@
+footer .footer {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 2rem 1rem;
+  margin: 1rem 0 0.3rem 0;
+  border-radius: 0.3rem;
+}
+
+footer .footer .footerTabs .footerTab h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+footer .footer .footerTabs .footerTab ul li {
+  margin: 0 0 0.1rem 0;
+}
+
+footer .footer .footerTabs .footerTab ul li:hover {
+  text-decoration: underline;
+}
+
+footer .footer .footerTabs .footerTab ul li a {
+  color: var(--white);
+}
+
+.fIcons {
+  margin: 0 0 -0.18rem 0;
+}
+
+footer .copyright {
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 1rem;
+  text-align: center;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}

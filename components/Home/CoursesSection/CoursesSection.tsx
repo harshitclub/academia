@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { FreeMode, Pagination } from "swiper";
+import { Autoplay, FreeMode, Pagination } from "swiper";
 import './style.css'
 import {courses} from './coursesData'
 import Image from 'next/image'
@@ -30,7 +30,11 @@ function CoursesSection() {
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
+        autoplay={{
+          delay: 1200,
+          disableOnInteraction: true,
+        }}
+        modules={[Autoplay, FreeMode, Pagination]}
         className="mySwiper"
       >
     {courses.map((item)=>{

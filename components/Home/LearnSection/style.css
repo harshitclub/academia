@@ -1,0 +1,23 @@
+.LearnSection .LearnSContainer {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 2rem;
+  border-radius: 0.3rem;
+  margin: 0 0 3rem 0;
+}
+
+.LearnSection .LearnSContainer .learnBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.learnIcons {
+  font-size: 2rem;
+}
+
+.LearnSection .LearnSContainer .learnBox h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
