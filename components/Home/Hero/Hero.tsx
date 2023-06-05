@@ -9,7 +9,7 @@ function Hero() {
           <div className="heroContainerChild flex alignCenter justifyCenter spaceBtw maxWidth width95">
         <div className="heroCCLeft width50">
           <div className="heroContent">
-          <h1>Welcome to 3a Academia</h1>
+          <h1>Welcome to Corporate Siksha</h1>
           
           <h2>Unlocking the Potential Within</h2>
           <div className="heroDivider"></div>

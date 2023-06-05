@@ -8,7 +8,7 @@ function Navbar() {
       <nav className='flex alignCenter justifyCenter width100'>
         <div className="navContainer flex alignCenter justifyCenter spaceBtw width95 maxWidth">
           <div className="navLogo">
-            <h1 className='font300'>3a Academia</h1>
+            <h1 className='font300'>Corporate Siksha</h1>
           </div>
           <div className="menu flex alignCenter justifyCenter">
             <ul className='flex alignCenter justifyCenter'>

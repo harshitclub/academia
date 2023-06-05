@@ -1,0 +1,73 @@
+.immersive {
+  margin: 0 0 2rem 0;
+}
+
+.immersive .immersiveContainer {
+  background: url(../../../public/assets/immersive2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+
+.immersive .immersiveContainer h2 {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+
+.immersive .immersiveContainer p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-align: justify;
+  margin: 0 0 2rem 0;
+}
+
+/* .immersive .immersiveContainer .immersiveTab {
+  border: 1px solid black;
+} */
+
+.immersive .immersiveContainer .immersiveTab .iBoxLeft {
+  width: 49%;
+}
+
+.immersive .immersiveContainer .immersiveTab .iBoxLeft h4 {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.immersive .immersiveContainer .immersiveTab .iBoxLeft p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.immersive .immersiveContainer .immersiveTab .iBoxRight {
+  width: 49%;
+}
+
+.immersive .immersiveContainer .immersiveTab .iBoxRight h4 {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.immersive .immersiveContainer .immersiveTab .iBoxRight p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.immersiveBoxDivider {
+  width: 10%;
+  border-bottom: 1px solid var(--blue);
+  margin: 0.5rem 0 0.3rem 0;
+}
+
+.immersiveBoxDivider2 {
+  width: 7%;
+  border-bottom: 1px solid var(--blue);
+  margin: 0 0 0.5rem 0;
+}
+
+.iBoxIcons {
+  margin: 0 0 -0.18rem 0;
+  color: var(--blue);
+}

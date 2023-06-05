@@ -1,0 +1,11 @@
+.bigDivider {
+  width: 10%;
+  border-bottom: 1px solid var(--blue);
+  margin: 1rem 0 0 0;
+}
+
+.bigDivider2 {
+  width: 7%;
+  margin: 0.3rem 0 1rem 0;
+  border-bottom: 1px solid var(--blue);
+}

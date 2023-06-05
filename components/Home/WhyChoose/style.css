@@ -14,18 +14,6 @@
   font-size: 2.2rem;
 }
 
-.WhyChoose .WhyChooseContainer .whyChooseDivider {
-  width: 10%;
-  border-bottom: 1px solid var(--blue);
-  margin: 1rem 0 0 0;
-}
-
-.WhyChoose .WhyChooseContainer .whyChooseDivider2 {
-  width: 7%;
-  margin: 0.3rem 0 1rem 0;
-  border-bottom: 1px solid var(--blue);
-}
-
 .WhyChoose .WhyChooseContainer p {
   font-size: 1.1rem;
   font-weight: 300;
@@ -43,6 +31,16 @@
   color: var(--white);
   padding: 1rem;
   border-radius: 0.3rem;
+  height: 17rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.WhyChoose .WhyChooseContainer .whyChooseTab .whyChooseTBox .whyIcons {
+  font-size: 2.2rem;
+  margin: 0 0 1rem 0;
 }
 
 .WhyChoose .WhyChooseContainer .whyChooseTab .whyChooseTBox h4 {
