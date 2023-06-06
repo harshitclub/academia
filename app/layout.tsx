@@ -10,8 +10,8 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: '3a Academia',
-  description: 'Business To Customers',
+  title: '',
+  description: '',
 }
 
 export default function RootLayout({

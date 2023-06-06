@@ -88,7 +88,7 @@ textarea {
 }
 
 .width95 {
-  width: 95%;
+  width: 90%;
 }
 
 .width90 {
@@ -149,6 +149,11 @@ textarea {
 
 .width19 {
   width: 19%;
+}
+
+/* gap */
+.gap1 {
+  gap: 1rem;
 }
 
 /* height */
@@ -273,4 +278,17 @@ textarea {
 
 .textRight {
   text-align: right;
+}
+
+/* icons margin */
+.icoMargin15 {
+  margin: 0 0 -0.15rem 0;
+}
+
+.icoMargin18 {
+  margin: 0 0 -0.18rem 0;
+}
+
+.icoMargin20 {
+  margin: 0 0 -0.2rem 0;
 }

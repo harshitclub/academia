@@ -14,7 +14,7 @@ export const courses = [
     duration: "6 Months",
     time: "2-3 Hrs",
     mode: "Offline",
-    link: "/",
+    link: "/campus-to-corporate",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const courses = [
     duration: "6 Months",
     time: "2-3 Hrs",
     mode: "Offline",
-    link: "/",
+    link: "/behavioral-skills",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const courses = [
     duration: "6 Months",
     time: "2-3 Hrs",
     mode: "Offline",
-    link: "/",
+    link: "/business-communication",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const courses = [
     duration: "6 Months",
     time: "2-3 Hrs",
     mode: "Offline",
-    link: "/",
+    link: "/data-analytics-using-excel",
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ export const courses = [
     duration: "6 Months",
     time: "2-3 Hrs",
     mode: "Offline",
-    link: "/",
+    link: "/data-analytics-using-power-bi",
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const courses = [
     duration: "6 Months",
     time: "2-3 Hrs",
     mode: "Offline",
-    link: "/",
+    link: "/tableau",
   },
   {
     id: 7,
@@ -68,6 +68,6 @@ export const courses = [
     duration: "6 Months",
     time: "2-3 Hrs",
     mode: "Offline",
-    link: "/",
+    link: "/ms-office-fundamentals",
   },
 ];
