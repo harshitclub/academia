@@ -1,0 +1,115 @@
+.upcomingTable h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.upcomingTable h3 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: justify;
+  margin: 0 0 1rem 0;
+}
+
+table {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  margin: 0 0 1rem 0;
+}
+
+table tr {
+  background-color: var(--white);
+  border: 1px solid grey;
+  padding: 0.35em;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+  color: #000;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.courseCall {
+  border: 1px solid grey;
+  padding: 1rem;
+}
+
+.courseCall h3 {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.courseCall p a {
+  display: block;
+  border: 1px solid var(--blue);
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem;
+}
+
+.courseCall p a:hover {
+  background-color: var(--white);
+  color: var(--blue);
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}

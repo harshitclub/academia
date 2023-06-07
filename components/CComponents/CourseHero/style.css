@@ -1,0 +1,135 @@
+.courseHero {
+  /* background-color: var(--blue); */
+  border-radius: 0.3rem;
+  /* margin: 0.5rem 0 0 0; */
+  /* color: var(--white); */
+  padding: 2rem 0;
+  margin: 0 0 4rem 0;
+}
+
+.courseHero .courseHeroLeft {
+  margin: 0 1rem 0 0;
+}
+
+.courseHero .courseHeroLeft h1 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.courseHero .courseHeroLeft h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+.courseHero .courseHeroLeft p {
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* --------------------------- */
+.courseDetails .coursePrice h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.courseDetails .coursePrice h3 span {
+  color: grey;
+  text-decoration: line-through;
+  font-size: 1.1rem;
+}
+
+.courseDetails .coursePrice h3 .discountPercent {
+  text-decoration: none;
+}
+
+/* ------------------------------- */
+.courseDetails .courseDiscount p {
+  font-size: 1rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.courseDetails .courseDiscount p span {
+  color: green;
+}
+
+/* ----------------------- */
+.courseDetails .courseDuration h4 {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 0 0 0.3rem 0;
+}
+
+.courseDetails .courseDuration h4 span {
+  font-weight: 400;
+}
+
+/* ---------------------------- */
+.courseDetails .courseMode h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.courseDetails .courseMode h4 span {
+  font-weight: 400;
+}
+
+.courseDetails .courseMode h4 span .onlineIcon {
+  color: green;
+}
+
+.courseDetails .courseMode h4 span .offlineIcon {
+  color: var(--blue);
+}
+
+/* ---------------------------------------- */
+
+.courseHero .courseHeroLeft .courseHeroBtns {
+  gap: 1rem;
+}
+
+.courseHero .courseHeroLeft .courseHeroBtns .courseHeroBtn a {
+  color: var(--white);
+  border: 1px solid var(--blue);
+  background-color: var(--blue);
+  font-size: 1rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-radius: 0.3rem;
+}
+
+.courseHero .courseHeroLeft .courseHeroBtns .courseHeroBtn a:hover {
+  background-color: var(--white);
+  color: var(--blue);
+  transition: 0.3s;
+}
+
+.courseHero .courseHeroLeft .courseHeroBtns .courseHeroBtn2 a {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  background-color: var(--white);
+  font-size: 1rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-radius: 0.3rem;
+}
+
+.courseHero .courseHeroLeft .courseHeroBtns .courseHeroBtn2 a:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.courseHero .courseHeroRight {
+  width: 40%;
+}
+
+.courseHero .courseHeroRight img {
+  width: 30rem;
+  height: auto;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
