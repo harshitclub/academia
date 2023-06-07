@@ -1,72 +1,26 @@
 import React from "react";
 import "./style.css";
-import {
-  RiCheckboxCircleFill,
-  RiDownloadLine,
-  RiDraftLine,
-  RiPhoneFill,
-} from "react-icons/ri";
+import { RiCheckboxCircleFill, RiDownloadLine } from "react-icons/ri";
 import powerBi from "../../public/assets/dapbi.jpg";
-import Image from "next/image";
+import CourseHero from "@/components/CComponents/CourseHero/CourseHero";
+import UpcomingBatch from "@/components/CComponents/UpcomingBatch/UpcomingBatch";
+import CourseGraph from "@/components/CComponents/CourseGraph/CourseGraph";
 
 function page() {
   return (
     <main className="daPowerBi flex alignCenter justifyCenter flexColumn width100">
-      <section className="daPowerBiHero flex alignCenter justifyCenter spaceBtw width95 maxWidth">
-        <div className="daPowerBiLeft width50">
-          <div className="breadCrumps marginBottom1">
-            <a href="/">{`Home > `}</a>
-            <a href="/courses">{`Courses > `}</a>
-            <a href="/">{`Data Analytics Using Power Bi`}</a>
-          </div>
-          <h1>Data Analytics Using Power Bi</h1>
-          <div className="daPowerBiDivider"></div>
-          <div className="daPowerBiDivider2"></div>
-          <h2>
-            Become an Expert With This Data Analytics Using Power Bi Course
-          </h2>
-          <p className="marginBottom1">
-            Data analytics using Power BI refers to the process of analyzing and
-            visualizing data using Microsoft Power BI, a powerful business
-            intelligence and data visualization tool. Power BI allows you to
-            connect to various data sources, transform and clean the data,
-            create data models, and generate interactive reports and dashboards.
-          </p>
-          <p className="marginBottom05">
-            Power BI can connect to a wide range of data sources such as
-            databases, Excel files, online services, and cloud-based platforms.
-            You can import or establish live connections to retrieve data from
-            these sources.
-          </p>
-          <div className="courseContactBar marginBottom1 flex gap1">
-            <p>
-              <a href="/">
-                <RiPhoneFill className="icoMargin15" /> +91 9876543210
-              </a>
-            </p>
-            |{" "}
-            <p>
-              <a href="/">Contact Us</a>
-            </p>
-          </div>
-          <div className="daPowerBiHeroBtns flex alignCenter justifyStart">
-            <div className="daPowerBiHeroBtn width50">
-              <a href="/">
-                Exroll Now <RiDraftLine className="courseCDownloadIcon" />
-              </a>
-            </div>
-            <div className="daPowerBiHeroBtn width50">
-              <a href="/">
-                Download Course Content{" "}
-                <RiDownloadLine className="courseCDownloadIcon" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="daPowerBiRight flex alignCenter justifyCenter">
-          <Image src={powerBi} alt="" />
-        </div>
-      </section>
+      <CourseHero
+        bCrumpLink="/data-analytics-using-power-bi"
+        bCrump="Data Analytics Using Power Bi"
+        h1="Data Analytics Using Power Bi"
+        h2="Become an Expert With This Data Analytics Using Power Bi Course"
+        p1="Data analytics using Power BI refers to the process of analyzing and visualizing data using Microsoft Power BI, a powerful business intelligence and data visualization tool. Power BI allows you to connect to various data sources, transform and clean the data, create data models, and generate interactive reports and dashboards."
+        p2="Power BI can connect to a wide range of data sources such as databases, Excel files, online services, and cloud-based platforms. You can import or establish live connections to retrieve data from these sources."
+        price={7999}
+        disPrice={1599}
+        disPercentage={50}
+        image={powerBi}
+      />
       <section className="daPowerBiBody flex alignStart justifyCenter spaceBtw width95 maxWidth">
         <div className="daPowerBiBLeft width60">
           <h2>Overview</h2>
@@ -309,6 +263,12 @@ function page() {
           </div>
         </div>
       </section>
+      <CourseGraph
+        heading="Data Analyst"
+        demand="High"
+        avgPackage={6}
+        highPackage={12}
+      />
       <section className="courseFor width95 maxWidth">
         <h2>Who Should Enroll This Course</h2>
         <p className="marginBottom1">
@@ -344,9 +304,20 @@ function page() {
           to effectively analyze, visualize, and present data using Power BI.
         </p>
       </section>
-      <section className="upcomingTable width95 maxWidth">
-        <h2>Upcoming Batches</h2>
-      </section>
+      <UpcomingBatch
+        date1="10 June"
+        day1="Saturday"
+        timing1="9 AM - 10 AM"
+        availability1="Yes"
+        date2="12 June"
+        day2="Monday"
+        timing2="11 AM - 12 PM"
+        availability2="No"
+        date3="15 June"
+        day3="Friday"
+        timing3="3 PM - 4 PM"
+        availability3="Yes"
+      />
     </main>
   );
 }

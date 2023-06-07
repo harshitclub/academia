@@ -5,86 +5,6 @@
   background-size: cover;
 }
 
-.daPowerBi .daPowerBiHero {
-  /* background-color: var(--blue); */
-  border-radius: 0.3rem;
-  /* margin: 0.5rem 0 0 0; */
-  /* color: var(--white); */
-  padding: 2rem 0;
-  margin: 0 0 4rem 0;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiLeft {
-  margin: 0 1rem 0 0;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiLeft h1 {
-  font-size: 2rem;
-  font-weight: 300;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiLeft h2 {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin: 0 0 1rem 0;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiLeft p {
-  font-weight: 300;
-  text-align: justify;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiLeft .daPowerBiDivider {
-  width: 15%;
-  border-bottom: 1px solid var(--blue);
-  margin: 1rem 0 0.3rem 0;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiLeft .daPowerBiDivider2 {
-  width: 10%;
-  border-bottom: 1px solid var(--blue);
-  margin: 0 0 1rem 0;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiLeft .daPowerBiHeroBtns {
-  gap: 1rem;
-}
-
-.daPowerBi
-  .daPowerBiHero
-  .daPowerBiLeft
-  .daPowerBiHeroBtns
-  .daPowerBiHeroBtn
-  a {
-  color: var(--white);
-  background-color: var(--blue);
-  font-size: 1rem;
-  display: block;
-  padding: 0.5rem 1rem;
-  text-align: center;
-  border-radius: 0.3rem;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiLeft .courseContactBar p a {
-  color: var(--blue);
-  text-decoration: underline;
-}
-
-.courseCDownloadIcon {
-  margin: 0 0 -0.16rem 0;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiRight {
-  width: 40%;
-}
-
-.daPowerBi .daPowerBiHero .daPowerBiRight img {
-  width: 30rem;
-  height: auto;
-  border-radius: 0.3rem;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-}
-
 /* power bi body */
 
 .daPowerBiBody {
@@ -165,7 +85,6 @@
   .daPowerBiContent::-webkit-scrollbar-thumb:hover {
   background: #002255;
 }
-
 .daPowerBiBody .daPowerBiBRight .daPowerBiContent h3 {
   font-size: 1.5rem;
   font-weight: 400;

@@ -1,0 +1,26 @@
+.courseGraph {
+  margin: 2rem 0 0 0;
+}
+
+.courseGraph h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+.courseGraph .courseGraphBlock {
+  padding: 1rem 10rem;
+  border-radius: 0.3rem;
+  margin: 0 0 2rem 0;
+  border: 2px dotted var(--blue);
+}
+
+.courseGraphBlock .courseGraph h3 {
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+.courseGraphBlock .courseGraph h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
