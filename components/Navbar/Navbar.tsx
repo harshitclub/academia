@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import "./style.css";
 import {
   RiArrowDownSLine,
@@ -46,6 +46,12 @@ function Navbar() {
                       <li>
                         <a href="/data-analytics-using-excel">
                           Data Analytics Using Excel
+                          <RiArrowRightUpLine className="subMenuIcons" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/tableau">
+                          Tableau
                           <RiArrowRightUpLine className="subMenuIcons" />
                         </a>
                       </li>

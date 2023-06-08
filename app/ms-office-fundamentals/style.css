@@ -1,45 +1,45 @@
-.cTocBody {
+.msofficeBody {
   margin: 0 0 2rem 0;
 }
 
-.cTocBody .cTocBLeft h2 {
+.msofficeBody .msofficeBLeft h2 {
   font-size: 1.8rem;
   font-weight: 400;
 }
 
-.cTocBody .cTocBLeft p {
+.msofficeBody .msofficeBLeft p {
   font-weight: 300;
   text-align: justify;
   margin: 0 0 1rem 0;
 }
 
-.cTocBody .cTocBLeft h3 {
+.msofficeBody .msofficeBLeft h3 {
   font-size: 1.5rem;
   font-weight: 400;
   margin: 0 0 0.2rem 0;
 }
 
-.cTocBody .cTocBLeft ul li {
+.msofficeBody .msofficeBLeft ul li {
   font-size: 1rem;
   margin: 0 0 0.2rem 0;
 }
 
-.cTocBody .cTocBLeft h4 {
+.msofficeBody .msofficeBLeft h4 {
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0 0 0.3rem 0;
 }
 
-.cTocBody .cTocBRight {
+.msofficeBody .msofficeBRight {
   padding: 0 0 0 2rem;
 }
 
-.cTocBody .cTocBRight h2 {
+.msofficeBody .msofficeBRight h2 {
   font-size: 1.8rem;
   font-weight: 400;
 }
 
-.cTocBody .cTocBRight .downloadBtn a {
+.msofficeBody .msofficeBRight .downloadBtn a {
   display: block;
   background-color: var(--blue);
   padding: 0.5rem 2rem;
@@ -48,7 +48,7 @@
   text-align: center;
 }
 
-.cTocBody .cTocBRight .cTocContent {
+.msofficeBody .msofficeBRight .msofficeContent {
   height: 25rem;
   border: 1px solid grey;
   overflow-y: auto;
@@ -57,46 +57,46 @@
 }
 
 /* scroll bar */
-.cTocBody .cTocBRight .cTocContent::-webkit-scrollbar {
+.msofficeBody .msofficeBRight .msofficeContent::-webkit-scrollbar {
   width: 10px;
 }
 
-.cTocBody .cTocBRight .cTocContent::-webkit-scrollbar-track {
+.msofficeBody .msofficeBRight .msofficeContent::-webkit-scrollbar-track {
   background: #f5f5f5;
 }
 
 /* Handle */
-.cTocBody .cTocBRight .cTocContent::-webkit-scrollbar-thumb {
+.msofficeBody .msofficeBRight .msofficeContent::-webkit-scrollbar-thumb {
   background: #002255;
 }
 
 /* Handle on hover */
-.cTocBody .cTocBRight .cTocContent::-webkit-scrollbar-thumb:hover {
+.msofficeBody .msofficeBRight .msofficeContent::-webkit-scrollbar-thumb:hover {
   background: #002255;
 }
-.cTocBody .cTocBRight .cTocContent h3 {
+.msofficeBody .msofficeBRight .msofficeContent h3 {
   font-size: 1.5rem;
   font-weight: 400;
   margin: 0 0 0.2rem 0;
 }
 
-.cTocBody .cTocBRight .cTocContent h4 {
+.msofficeBody .msofficeBRight .msofficeContent h4 {
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0 0 0.2rem 0;
 }
 
-.cTocBody .cTocBRight .cTocContent ul {
+.msofficeBody .msofficeBRight .msofficeContent ul {
   list-style: disc;
   list-style-position: inside;
   margin: 0 0 1rem 0;
 }
 
-.cTocBody .cTocBRight .cTocContent ul li {
+.msofficeBody .msofficeBRight .msofficeContent ul li {
   font-weight: 300;
 }
 
-.cTocBody .cTocBRight .cTocContent ul li ul {
+.msofficeBody .msofficeBRight .msofficeContent ul li ul {
   margin: 0 0 0 2.2rem;
   list-style: decimal;
 }
