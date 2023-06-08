@@ -1,12 +1,3 @@
-.daPowerBi {
-  background: url(../../public/assets/coursebg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* power bi body */
-
 .daPowerBiBody {
   margin: 0 0 2rem 0;
 }

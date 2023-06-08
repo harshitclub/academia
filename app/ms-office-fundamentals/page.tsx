@@ -3,75 +3,74 @@ import "./style.css";
 import UpcomingBatch from "@/components/CComponents/UpcomingBatch/UpcomingBatch";
 import { RiCheckboxCircleFill, RiDownloadLine } from "react-icons/ri";
 import CourseGraph from "@/components/CComponents/CourseGraph/CourseGraph";
-import bSkills from "../../public/assets/bSkills.jpg";
 import CourseHero from "@/components/CComponents/CourseHero/CourseHero";
+import msoffice from "../../public/assets/msoffice.jpg";
 
 function page() {
   return (
-    <main className="bSkills flex alignCenter justifyCenter flexColumn width100">
+    <main className="msoffice flex alignCenter justifyCenter flexColumn width100">
       <CourseHero
-        bCrumpLink="/behavioral-skills"
-        bCrump="Behavioral Skills"
-        h1="Behavioral Skills"
-        h2="Become an Expert With This Behavioral Skills Course"
-        p1="Welcome to an extraordinary journey of self-discovery and personal growth through our captivating Behavioral Skills course! Are you ready to unlock the power of behavioral competencies and unleash your true potential? Look no further! Our course is meticulously designed to empower you with the essential skills and insights needed to excel both personally and professionally."
-        p2="Whether you aspire to be a charismatic leader, an influential communicator, a trusted team player, or a master of emotional intelligence, our Behavioral Skills course will equip you with the tools and techniques to shine in any situation."
+        bCrumpLink="/ms-office-fundamentals"
+        bCrump="Ms Office Fundamentals"
+        h1="Ms Office Fundamentals"
+        h2="Become an Expert With This Ms Office Fundamentals Course"
+        p1="Data analytics using Power BI refers to the process of analyzing and visualizing data using Microsoft Power BI, a powerful business intelligence and data visualization tool. Power BI allows you to connect to various data sources, transform and clean the data, create data models, and generate interactive reports and dashboards."
+        p2="Power BI can connect to a wide range of data sources such as databases, Excel files, online services, and cloud-based platforms. You can import or establish live connections to retrieve data from these sources."
         price={7999}
         disPrice={1599}
         disPercentage={50}
-        duration="40 Hours"
-        image={bSkills}
+        image={msoffice}
       />
-      <section className="bSkillsBody flex alignStart justifyCenter spaceBtw width95 maxWidth">
-        <div className="bSkillsBLeft width60">
+      <section className="msofficeBody flex alignStart justifyCenter spaceBtw width95 maxWidth">
+        <div className="msofficeBLeft width60">
           <h2>Overview</h2>
           <p>
-            Join our Behavioral Skills course and unlock the door to personal
-            and professional success. Step into a world of self-discovery, where
-            you will gain the confidence, self-awareness, and interpersonal
-            finesse needed to navigate the complexities of today's dynamic and
-            fast-paced world. Whether you aspire to be an influential leader, an
-            effective communicator, or a master collaborator, our course will
-            empower you to transcend your potential and become the best version
-            of yourself.
+            Welcome to the Data Analytics Using Power BI course! In today's
+            data-driven world, organizations rely on actionable insights derived
+            from data to make informed decisions. Microsoft Power BI is a
+            powerful business intelligence tool that enables professionals to
+            visualize, analyze, and gain valuable insights from their data. This
+            comprehensive training program will equip you with the skills and
+            knowledge required to harness the full potential of Power BI for
+            effective data analytics.
           </p>
           <h3>Benefits of Doing This Course</h3>
           <ul>
             <li>
-              <RiCheckboxCircleFill className="icoMargin18" /> Enhanced
-              Communication
+              <RiCheckboxCircleFill className="icoMargin18" /> Enhanced Data
+              Analysis Skills
             </li>
             <li>
-              <RiCheckboxCircleFill className="icoMargin18" /> Leadership
-              Development
+              <RiCheckboxCircleFill className="icoMargin18" /> Proficiency in
+              Power BI Tools
             </li>
             <li>
-              <RiCheckboxCircleFill className="icoMargin18" /> Conflict
-              Resolution
+              <RiCheckboxCircleFill className="icoMargin18" /> Improved Data
+              Visualization
             </li>
             <li>
-              <RiCheckboxCircleFill className="icoMargin18" /> Adaptability and
-              Resilience
+              <RiCheckboxCircleFill className="icoMargin18" /> Efficient Data
+              Modeling
             </li>
             <li>
-              <RiCheckboxCircleFill className="icoMargin18" /> Effective
-              Teamwork
+              <RiCheckboxCircleFill className="icoMargin18" /> Data-driven
+              Decision Making
             </li>
             <li>
-              <RiCheckboxCircleFill className="icoMargin18" /> Increased
-              Self-Awareness
+              <RiCheckboxCircleFill className="icoMargin18" /> Increased Career
+              Opportunities
             </li>
             <li>
-              <RiCheckboxCircleFill className="icoMargin18" /> Professional
-              Image and Presence
+              <RiCheckboxCircleFill className="icoMargin18" /> Practical
+              Hands-on Experience
             </li>
             <li>
-              <RiCheckboxCircleFill className="icoMargin18" /> Improved Customer
-              Relations
+              <RiCheckboxCircleFill className="icoMargin18" /> Industry-Relevant
+              Insights
             </li>
             <li>
               <RiCheckboxCircleFill className="icoMargin18" /> Networking and
-              Relationship Building
+              Collaboration
             </li>
             <li>
               <RiCheckboxCircleFill className="icoMargin18" /> Recognized
@@ -79,9 +78,9 @@ function page() {
             </li>
           </ul>
         </div>
-        <div className="bSkillsBRight width40">
+        <div className="msofficeBRight width40">
           <h2>Course Content</h2>
-          <div className="bSkillsContent">
+          <div className="msofficeContent">
             <h3>Table of Content</h3>
             <h4>1. Introduction to Data Analytics</h4>
             <ul>
@@ -273,13 +272,11 @@ function page() {
       <section className="courseFor width95 maxWidth">
         <h2>Who Should Enroll This Course</h2>
         <p className="marginBottom1">
-          A behavioral skills course is beneficial for a wide range of
-          individuals across various professional backgrounds.
+          The Data Analytics Using Power BI course is beneficial for a wide
+          range of professionals and individuals who want to enhance their data
+          analytics skills and leverage the power of Power BI.{" "}
         </p>
-        <h3>
-          Here are some groups of people who can greatly benefit from
-          undertaking a behavioral skills course:
-        </h3>
+        <h3>The course is particularly suitable for:</h3>
         <ul>
           <li>
             <RiCheckboxCircleFill className="icoMargin18" /> Students
@@ -289,32 +286,22 @@ function page() {
             Professionals
           </li>
           <li>
-            <RiCheckboxCircleFill className="icoMargin18" /> Professionals in
-            Leadership Roles
+            <RiCheckboxCircleFill className="icoMargin18" /> Business Analysts
           </li>
           <li>
-            <RiCheckboxCircleFill className="icoMargin18" /> Employees Seeking
-            Career Advancement
+            <RiCheckboxCircleFill className="icoMargin18" /> Data Professionals
           </li>
           <li>
-            <RiCheckboxCircleFill className="icoMargin18" /> Recent Graduates
-            and Entry-Level Professionals
+            <RiCheckboxCircleFill className="icoMargin18" /> Managers
           </li>
           <li>
-            <RiCheckboxCircleFill className="icoMargin18" /> Professionals
-            Transitioning to New Roles or Industries
-          </li>
-          <li>
-            <RiCheckboxCircleFill className="icoMargin18" /> Customer-Facing
-            Professionals
+            <RiCheckboxCircleFill className="icoMargin18" /> Decision Makers
           </li>
         </ul>
         <p>
-          It is worth noting that while the above groups can benefit from
-          behavioral skills training, these courses can be valuable for
-          individuals in any professional setting who seek to enhance their
-          communication, leadership, teamwork, adaptability, and other
-          behavioral competencies.
+          Whether you are a beginner or have some experience with data
+          analytics, this course offers valuable insights and practical skills
+          to effectively analyze, visualize, and present data using Power BI.
         </p>
       </section>
       <UpcomingBatch

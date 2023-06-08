@@ -1,0 +1,127 @@
+.bSkillsBody {
+  margin: 0 0 2rem 0;
+}
+
+.bSkillsBody .bSkillsBLeft h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.bSkillsBody .bSkillsBLeft p {
+  font-weight: 300;
+  text-align: justify;
+  margin: 0 0 1rem 0;
+}
+
+.bSkillsBody .bSkillsBLeft h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 0.2rem 0;
+}
+
+.bSkillsBody .bSkillsBLeft ul li {
+  font-size: 1rem;
+  margin: 0 0 0.2rem 0;
+}
+
+.bSkillsBody .bSkillsBLeft h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 0.3rem 0;
+}
+
+.bSkillsBody .bSkillsBRight {
+  padding: 0 0 0 2rem;
+}
+
+.bSkillsBody .bSkillsBRight h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.bSkillsBody .bSkillsBRight .downloadBtn a {
+  display: block;
+  background-color: var(--blue);
+  padding: 0.5rem 2rem;
+  color: var(--white);
+  width: 100%;
+  text-align: center;
+}
+
+.bSkillsBody .bSkillsBRight .bSkillsContent {
+  height: 25rem;
+  border: 1px solid grey;
+  overflow-y: auto;
+  padding: 1rem;
+  background-color: var(--white);
+}
+
+/* scroll bar */
+.bSkillsBody .bSkillsBRight .bSkillsContent::-webkit-scrollbar {
+  width: 10px;
+}
+
+.bSkillsBody .bSkillsBRight .bSkillsContent::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+/* Handle */
+.bSkillsBody .bSkillsBRight .bSkillsContent::-webkit-scrollbar-thumb {
+  background: #002255;
+}
+
+/* Handle on hover */
+.bSkillsBody .bSkillsBRight .bSkillsContent::-webkit-scrollbar-thumb:hover {
+  background: #002255;
+}
+.bSkillsBody .bSkillsBRight .bSkillsContent h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 0.2rem 0;
+}
+
+.bSkillsBody .bSkillsBRight .bSkillsContent h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 0.2rem 0;
+}
+
+.bSkillsBody .bSkillsBRight .bSkillsContent ul {
+  list-style: disc;
+  list-style-position: inside;
+  margin: 0 0 1rem 0;
+}
+
+.bSkillsBody .bSkillsBRight .bSkillsContent ul li {
+  font-weight: 300;
+}
+
+.bSkillsBody .bSkillsBRight .bSkillsContent ul li ul {
+  margin: 0 0 0 2.2rem;
+  list-style: decimal;
+}
+
+/* course for */
+.courseFor {
+  margin: 0 0 2rem 0;
+}
+.courseFor h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.courseFor p {
+  font-weight: 300;
+  text-align: justify;
+}
+
+.courseFor h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.courseFor ul li {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 0 0.2rem 0;
+}
