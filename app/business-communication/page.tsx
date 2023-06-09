@@ -5,6 +5,7 @@ import bComm from "../../public/assets/bcSkills.jpg";
 import UpcomingBatch from "@/components/CComponents/UpcomingBatch/UpcomingBatch";
 import { RiCheckboxCircleFill, RiDownloadLine } from "react-icons/ri";
 import CourseGraph from "@/components/CComponents/CourseGraph/CourseGraph";
+import CoursesSection from "@/components/Home/CoursesSection/CoursesSection";
 
 function page() {
   return (
@@ -338,6 +339,7 @@ function page() {
         timing3="3 PM - 4 PM"
         availability3="Yes"
       />
+      <CoursesSection heading="Explore Other Courses" />
     </main>
   );
 }

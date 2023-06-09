@@ -5,6 +5,7 @@ import { RiCheckboxCircleFill, RiDownloadLine } from "react-icons/ri";
 import CourseGraph from "@/components/CComponents/CourseGraph/CourseGraph";
 import bSkills from "../../public/assets/bSkills.jpg";
 import CourseHero from "@/components/CComponents/CourseHero/CourseHero";
+import CoursesSection from "@/components/Home/CoursesSection/CoursesSection";
 
 function page() {
   return (
@@ -331,6 +332,7 @@ function page() {
         timing3="3 PM - 4 PM"
         availability3="Yes"
       />
+      <CoursesSection heading="Explore Other Courses" />
     </main>
   );
 }
