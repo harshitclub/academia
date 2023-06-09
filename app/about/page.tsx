@@ -5,6 +5,7 @@ import aboutImage2 from "../../public/assets/aboutImage2.jpg";
 import Image from "next/image";
 import BigDivider from "@/components/BigDivider/BigDivider";
 import WhyChoose from "@/components/Home/WhyChoose/WhyChoose";
+import CoursesSection from "@/components/Home/CoursesSection/CoursesSection";
 
 function page() {
   return (
@@ -81,6 +82,7 @@ function page() {
         </div>
       </section>
       <WhyChoose />
+      <CoursesSection heading="Explore Our Courses" />
     </>
   );
 }
