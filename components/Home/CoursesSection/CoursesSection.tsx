@@ -10,11 +10,11 @@ import { courses } from "./coursesData";
 import Image from "next/image";
 import { RiCalendarLine, RiPencilLine, RiTimeLine } from "react-icons/ri";
 
-function CoursesSection() {
+function CoursesSection({ heading }: { heading: string }) {
   return (
     <section className="courseSection flex alignCenter justifyCenter width100">
       <div className="courseSContainer flex alignStart justifyStart width95 maxWidth flexColumn">
-        <h2>Explore Our Courses</h2>
+        <h2>{heading}</h2>
         <div className="courseSDivider"></div>
         <div className="courseSDivider2"></div>
         <h3>Unlock Your Potential with Knowledge & Skills</h3>

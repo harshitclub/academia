@@ -5,6 +5,7 @@ import powerBi from "../../public/assets/dapbi.jpg";
 import CourseHero from "@/components/CComponents/CourseHero/CourseHero";
 import UpcomingBatch from "@/components/CComponents/UpcomingBatch/UpcomingBatch";
 import CourseGraph from "@/components/CComponents/CourseGraph/CourseGraph";
+import CoursesSection from "@/components/Home/CoursesSection/CoursesSection";
 
 function page() {
   return (
@@ -19,6 +20,7 @@ function page() {
         price={7999}
         disPrice={1599}
         disPercentage={50}
+        duration="40 Hours"
         image={powerBi}
       />
       <section className="daPowerBiBody flex alignStart justifyCenter spaceBtw width95 maxWidth">
@@ -318,6 +320,7 @@ function page() {
         timing3="3 PM - 4 PM"
         availability3="Yes"
       />
+      <CoursesSection heading="Explore Other Courses" />
     </main>
   );
 }

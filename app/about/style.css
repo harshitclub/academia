@@ -1,0 +1,54 @@
+.aboutHero {
+  background: url(../../public/assets/aboutbg.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4rem 0 6rem 0;
+}
+
+.aboutHero .aboutHeroContainer .aboutHeroLeft {
+  width: 60%;
+}
+
+.aboutHero .aboutHeroContainer .aboutHeroLeft h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.aboutHero .aboutHeroContainer .aboutHeroLeft p {
+  text-align: justify;
+  margin: 0 0 1rem 0;
+}
+
+.aboutHero .aboutHeroContainer .aboutHeroRight {
+  width: 40%;
+}
+
+.aboutHero .aboutHeroContainer .aboutHeroRight img {
+  width: 25rem;
+  height: auto;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+/* about content */
+.aboutContent {
+  padding: 0 0 4rem 0;
+}
+.aboutContent .aboutCContainer .aboutCCLeft {
+  width: 40%;
+}
+
+.aboutContent .aboutCContainer .aboutCCLeft img {
+  width: 35rem;
+  height: auto;
+}
+
+.aboutContent .aboutCContainer .aboutCCRight {
+  width: 60%;
+}
+
+.aboutContent .aboutCContainer .aboutCCRight p {
+  margin: 0 0 1rem 0;
+  text-align: justify;
+}

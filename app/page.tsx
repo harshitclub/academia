@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <CoursesSection />
+      <CoursesSection heading="Explore Our Courses" />
       <WhyChoose />
       <Immersive />
       <LearnSection />
