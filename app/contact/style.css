@@ -1,0 +1,64 @@
+.contactContainer {
+  padding: 3rem 0 6rem 0;
+  background: url(../../public/assets/contactbg.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contactContainer .contactCLeft h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.contactContainer .contactCLeft h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.contactContainer .contactCLeft p {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+.contactContainer .contactCLeft p span {
+  color: var(--blue);
+  font-weight: 400;
+}
+
+.contactContainer .contactCLeft p a {
+  color: var(--black);
+}
+
+.contactContainer .contactCLeft .directionBtn a {
+  border-radius: 0.3rem;
+  color: var(--white);
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--blue);
+  background-color: var(--blue);
+  font-size: 0.9rem;
+}
+
+.contactContainer .contactCLeft .directionBtn a:hover {
+  background-color: var(--white);
+  color: var(--blue);
+  transition: 0.3s;
+}
+
+.contactContainer .contactCRight {
+  padding: 1.5rem 0 0 0;
+}
+
+.contactContainer .contactCRight .contactForm {
+  background-color: var(--white);
+  padding: 1rem 2rem 2rem 2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 0.3rem;
+}
+
+.contactContainer .contactCRight .contactForm h2 {
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}

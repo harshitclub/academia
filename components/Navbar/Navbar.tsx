@@ -7,6 +7,8 @@ import {
   RiArrowRightUpLine,
   RiPhoneFill,
 } from "react-icons/ri";
+import Image from "next/image";
+import navLogo from "@/public/assets/campusSutrasLogo.png";
 
 function Navbar() {
   const [navHover, setNavHover] = useState(false);
@@ -23,8 +25,10 @@ function Navbar() {
     <header>
       <nav className="flex alignCenter justifyCenter width100">
         <div className="navContainer flex alignCenter justifyCenter spaceBtw width95 maxWidth">
-          <div className="navLogo">
-            <h1 className="font300">Corporate Siksha</h1>
+          <div className="navLogo flex alignCenter justifyCenter">
+            <a href="/">
+              <Image src={navLogo} alt="Campus Sutras Logo" />
+            </a>
           </div>
           <div className="menu flex alignCenter justifyCenter">
             <ul className="flex alignCenter justifyCenter">
@@ -35,17 +39,23 @@ function Navbar() {
                 Courses <RiArrowDownSLine className="navRIconMain" />
                 <ul className={`subMenu ${navHover ? "showSubMenu" : ""}`}>
                   <li className="daMainMenu">
-                    IT Skills <RiArrowDownSLine className="navRIcon" />
+                    Data Analysis <RiArrowDownSLine className="navRIcon" />
                     <ul className="daMenu">
                       <li>
                         <a href="/data-analytics-using-power-bi">
-                          Data Analytics Using Power Bi
+                          Using Power Bi
                           <RiArrowRightUpLine className="subMenuIcons" />
                         </a>
                       </li>
                       <li>
                         <a href="/data-analytics-using-excel">
-                          Data Analytics Using Excel
+                          Using Excel
+                          <RiArrowRightUpLine className="subMenuIcons" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/data-analytics-using-power-query">
+                          Using Power Query
                           <RiArrowRightUpLine className="subMenuIcons" />
                         </a>
                       </li>
@@ -64,25 +74,52 @@ function Navbar() {
                     </ul>
                   </li>
                   <li>
-                    Behavioral Science Skills{" "}
+                    Artificial Intelligence{" "}
                     <RiArrowDownSLine className="navRIcon" />
                     <ul className="softMenu">
+                      <li>
+                        <a href="/artificial-intelligence">
+                          Artificial Intelligence
+                          <RiArrowRightUpLine className="subMenuIcons" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/gpt-v3-5-and-gpt-v4-0">
+                          GPT V3.5 & GPT V4.0
+                          <RiArrowRightUpLine className="subMenuIcons" />
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Business <RiArrowDownSLine className="navRIcon" />
+                    <ul className="softMenu">
+                      <li>
+                        <a href="/art-of-entrepreneurship">
+                          Art of Entrepreneurship
+                          <RiArrowRightUpLine className="subMenuIcons" />
+                        </a>
+                      </li>
                       <li>
                         <a href="/business-communication">
                           Business Communication
                           <RiArrowRightUpLine className="subMenuIcons" />
                         </a>
                       </li>
+                    </ul>
+                  </li>
+                  <li>
+                    IT Skills <RiArrowDownSLine className="navRIcon" />
+                    <ul className="softMenu">
                       <li>
-                        <a href="/campus-to-corporate">
-                          Campus To Corporate
+                        <a href="/ms-office-fundamentals">
+                          MS Office Fundamentals
                           <RiArrowRightUpLine className="subMenuIcons" />
                         </a>
                       </li>
-
                       <li>
-                        <a href="/behavioral-skills">
-                          Behavioral Skills
+                        <a href="/Cyber Security">
+                          Cyber Security
                           <RiArrowRightUpLine className="subMenuIcons" />
                         </a>
                       </li>

@@ -24,6 +24,11 @@ footer .footer .footerTabs .footerTab ul li a {
   color: var(--white);
 }
 
+footer .footer .footerTabs .footerTab .footerLogo img {
+  width: 12rem;
+  height: auto;
+}
+
 .fIcons {
   margin: 0 0 -0.18rem 0;
 }

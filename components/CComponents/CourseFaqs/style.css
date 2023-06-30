@@ -1,0 +1,21 @@
+.courseFaqs {
+  padding: 2rem 0 0 0;
+}
+
+.courseFaqs h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.courseFaqContainer .cFaqs .cFaq {
+  margin: 0 0 1rem 0;
+}
+
+.courseFaqContainer .cFaqs .cFaq h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.courseFaqContainer .cFaqs .cFaq p {
+  text-align: justify;
+}
