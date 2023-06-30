@@ -1,0 +1,24 @@
+/* course for */
+.courseFor {
+  margin: 0 0 2rem 0;
+}
+.courseFor h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.courseFor p {
+  font-weight: 300;
+  text-align: justify;
+}
+
+.courseFor h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.courseFor ul li {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 0 0.2rem 0;
+}

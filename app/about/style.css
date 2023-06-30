@@ -34,6 +34,7 @@
 /* about content */
 .aboutContent {
   padding: 0 0 4rem 0;
+  background: transparent;
 }
 .aboutContent .aboutCContainer .aboutCCLeft {
   width: 40%;
@@ -46,6 +47,7 @@
 
 .aboutContent .aboutCContainer .aboutCCRight {
   width: 60%;
+  background: transparent;
 }
 
 .aboutContent .aboutCContainer .aboutCCRight p {

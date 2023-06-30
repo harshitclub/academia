@@ -1,0 +1,25 @@
+.courseOverview {
+  margin: 0 0 2rem 0;
+}
+
+.courseOverview .cOverviewBody h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.courseOverview .cOverviewBody p {
+  font-weight: 300;
+  text-align: justify;
+  margin: 0 0 1rem 0;
+}
+
+.courseOverview .cOverviewBody h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 0.2rem 0;
+}
+
+.courseOverview .cOverviewBody ul li {
+  font-size: 1rem;
+  margin: 0 0 0.2rem 0;
+}

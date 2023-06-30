@@ -6,6 +6,7 @@ import Image from "next/image";
 import BigDivider from "@/components/BigDivider/BigDivider";
 import WhyChoose from "@/components/Home/WhyChoose/WhyChoose";
 import CoursesSection from "@/components/Home/CoursesSection/CoursesSection";
+import BreadCrumps from "@/components/BreadCrumps/BreadCrumps";
 
 function page() {
   return (
@@ -13,11 +14,12 @@ function page() {
       <section className="aboutHero flex alignCenter justifyCenter flexColumn width100">
         <div className="aboutHeroContainer flex alignCenter justifyCenter width95 maxWidth">
           <div className="aboutHeroLeft">
-            <h1>About Corp Siksha</h1>
+            <BreadCrumps pageLink="/about" pageName="About" />
+            <h1>About Campus Sutras</h1>
             <BigDivider />
             <p>
-              Welcome to Corp Siksha, your gateway to professional success! At
-              Corp Siksha, we understand that in today's dynamic and
+              Welcome to Campus Sutras, your gateway to professional success! At
+              Campus Sutras, we understand that in today's dynamic and
               ever-evolving world, acquiring the right skills and knowledge is
               crucial for unlocking endless opportunities. That's why we are
               here to empower individuals from all walks of life with
@@ -56,7 +58,7 @@ function page() {
               bridges the gap between theory and practical application.
             </p>
             <p>
-              But at Corp Siksha, we recognize that technical prowess alone is
+              But at Campus Sutras, we recognize that technical prowess alone is
               not enough to succeed. That's why we also offer an array of soft
               skills courses that enhance your interpersonal communication,
               leadership abilities, teamwork, problem-solving skills, and much

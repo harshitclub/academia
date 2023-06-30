@@ -48,6 +48,7 @@ form button {
   border: 1px solid var(--blue);
   outline: none;
   border-radius: 0.3rem;
+  cursor: pointer;
 }
 
 form button:hover {

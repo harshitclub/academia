@@ -4,6 +4,11 @@ header nav {
   color: var(--white);
 }
 
+header nav .navContainer .navLogo img {
+  width: 10rem;
+  height: auto;
+}
+
 header nav .navContainer .menu ul {
   gap: 1.5rem;
 }
@@ -41,8 +46,9 @@ header nav .navContainer .menu ul li .subMenu {
   transform: translateX(-50%);
   border-bottom-left-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
-  height: 11rem;
+  height: 12rem;
   margin: 1rem 0 0 0;
+  border-top: 1px solid white;
 }
 
 header nav .navContainer .menu ul .coursesMenu {
