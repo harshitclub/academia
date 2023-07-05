@@ -1,6 +1,6 @@
 import {connect} from '@/db/dbConfig'
 import User from '@/models/userModel'
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import bcryptjs from "bcryptjs";
 import { sendEmail } from '@/helpers/mailer';
 import { sendVoucher } from '@/helpers/voucherMail';
@@ -8,7 +8,7 @@ import { sendVoucher } from '@/helpers/voucherMail';
 
 connect()
 
-export async function POST(request: NextResponse){
+export async function POST(request: NextRequest){
     try {
         const reqBody = await request.json()
         const {fullName, email, phone, password} = reqBody
