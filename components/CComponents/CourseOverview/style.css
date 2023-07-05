@@ -10,7 +10,7 @@
 .courseOverview .cOverviewBody p {
   font-weight: 300;
   text-align: justify;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .courseOverview .cOverviewBody h3 {
@@ -22,4 +22,10 @@
 .courseOverview .cOverviewBody ul li {
   font-size: 1rem;
   margin: 0 0 0.2rem 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .courseOverview {
+    margin: 0;
+  }
 }

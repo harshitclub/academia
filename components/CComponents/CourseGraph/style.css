@@ -24,3 +24,20 @@
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .courseGraph h2 {
+    font-size: 1.5rem;
+  }
+  .courseGraph .courseGraphBlock {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .courseDemand {
+    margin: 0 0 1rem 0;
+  }
+  .courseAvgSalary {
+    margin: 0 0 1rem 0;
+  }
+}

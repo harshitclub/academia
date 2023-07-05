@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import UpcomingBatch from "@/components/CComponents/UpcomingBatch/UpcomingBatch";
-import { RiCheckboxCircleFill, RiDownloadLine } from "react-icons/ri";
 import CourseGraph from "@/components/CComponents/CourseGraph/CourseGraph";
 import CourseHero from "@/components/CComponents/CourseHero/CourseHero";
 import msoffice from "@/public/assets/msoffice.jpg";
@@ -18,8 +17,8 @@ function page() {
         bCrump="Ms Office Fundamentals"
         h1="Ms Office Fundamentals"
         h2="Become an Expert With This Ms Office Fundamentals Course"
-        p1="Data analytics using Power BI refers to the process of analyzing and visualizing data using Microsoft Power BI, a powerful business intelligence and data visualization tool. Power BI allows you to connect to various data sources, transform and clean the data, create data models, and generate interactive reports and dashboards."
-        p2="Power BI can connect to a wide range of data sources such as databases, Excel files, online services, and cloud-based platforms. You can import or establish live connections to retrieve data from these sources."
+        p1="MS Office Fundamentals is a comprehensive course designed to provide individuals with essential skills and knowledge to effectively utilize the suite of Microsoft Office applications. Microsoft Office is a widely used productivity suite that includes popular applications such as Microsoft Word, Excel, PowerPoint, Outlook, and more."
+        p2="Proficiency in MS Office is essential in various professional settings, enabling individuals to create, edit, organize, and present information efficiently. The MS Office Fundamentals course covers the core features and functionalities of each application, equipping participants with a solid foundation to maximize their productivity and effectiveness in the workplace."
         price={7999}
         disPrice={1599}
         disPercentage={50}
@@ -27,17 +26,19 @@ function page() {
         image={msoffice}
       />
       <CourseOverview
-        paragraph="Welcome to the Data Analytics Using Power BI course! In today's data-driven world, organizations rely on actionable insights derived from data to make informed decisions. Microsoft Power BI is a powerful business intelligence tool that enables professionals to visualize, analyze, and gain valuable insights from their data. This comprehensive training program will equip you with the skills and knowledge required to harness the full potential of Power BI for effective data analytics."
+        paragraph="Welcome to Campus Sutras' MS Office Fundamentals course! Microsoft Office is a suite of powerful productivity tools that are widely used in various professional settings. Our comprehensive course on MS Office Fundamentals is designed to provide you with the essential skills and knowledge to navigate and leverage the core applications of Microsoft Office."
+        paragraph2="Throughout the program, you will explore the key applications of Microsoft Office, including Microsoft Word, Excel, PowerPoint, and Outlook. Our experienced instructors, who have a deep understanding of MS Office, will guide you through practical exercises, demonstrations, and hands-on projects to ensure you gain practical proficiency in using these applications."
+        paragraph3="At Campus Sutras, we believe in a learner-centric approach to education. Our course curriculum is designed to provide a balance of theoretical knowledge and practical application, enabling you to apply your skills in real-world scenarios. You will develop the ability to work efficiently, collaborate effectively, and produce high-quality outputs using Microsoft Office applications."
+        paragraph4="Join us today and unlock the potential of Microsoft Office. Whether you're looking to enhance your professional skills, improve your academic performance, or simply become more proficient in using these essential productivity tools, Campus Sutras' MS Office Fundamentals course will provide you with the knowledge and skills to excel in the digital workplace."
         benefits={[
-          "Enhanced Data Analysis Skills",
-          "Proficiency in Power BI Tools",
-          "Improved Data Visualization",
-          "Efficient Data Modeling",
-          "Data-driven Decision Making",
-          "Increased Career Opportunities",
-          "Practical Hands-on Experience",
-          "Industry-Relevant Insights",
-          "Networking and Collaboration",
+          "Improved Productivity",
+          "Enhanced Professional Skills",
+          "Efficient Document Creation and Management",
+          "Data Analysis and Visualization",
+          "Professional Presentations",
+          "Efficient Email and Information Management",
+          "Collaboration and Teamwork",
+          "Versatility and Adaptability",
           "Recognized Certification",
         ]}
       />
@@ -48,14 +49,16 @@ function page() {
         highPackage={12}
       />
       <CourseFor
-        paragraph="The Data Analytics Using Power BI course is beneficial for a wide range of professionals and individuals who want to enhance their data analytics skills and leverage the power of Power BI. The course is particularly suitable for:"
+        paragraph="The MS Office Fundamentals course is beneficial for a wide range of individuals, regardless of their professional background or industry. Here are some key groups of people who should consider enrolling in the course:"
         whoList={[
           "Students",
-          "Aspiring Professionals",
-          "Business Analysts",
-          "Data Professionals",
-          "Managers",
-          "Decision Makers",
+          "Office Professionals",
+          "Business Professionals",
+          "Entrepreneurs and Small Business Owners",
+          "Job Seekers",
+          "Career Changers",
+          "Personal Use",
+          "Anyone Who is Interested ",
         ]}
       />
       <UpcomingBatch
@@ -73,7 +76,7 @@ function page() {
         availability3="Yes"
       />
       <CourseFaqs
-        faqHeading="FAQ's Tableau"
+        faqHeading="FAQ's MS Office Fundamentals"
         ques1="Q. Demo Question"
         ans1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         ques2="Q. Demo Question"

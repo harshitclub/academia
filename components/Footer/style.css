@@ -41,3 +41,13 @@ footer .copyright {
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  footer .footer .footerTabs {
+    flex-direction: column;
+  }
+
+  footer .footer .footerTab {
+    margin: 0 0 1.2rem 0;
+  }
+}

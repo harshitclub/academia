@@ -136,3 +136,36 @@
   border-radius: 0.3rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .courseHeroContainer {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .courseHeroContainer .courseHeroLeft {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  .courseHero .courseHeroLeft .courseHeroBtns {
+    flex-direction: column;
+  }
+
+  .courseHero .courseHeroLeft .courseHeroBtns .courseHeroBtn {
+    width: 100%;
+  }
+
+  .courseHero .courseHeroLeft .courseHeroBtns .courseHeroBtn2 {
+    width: 100%;
+  }
+
+  .courseHero .courseHeroRight {
+    width: 100%;
+  }
+
+  .courseHero .courseHeroRight img {
+    width: 100%;
+    height: auto;
+  }
+}

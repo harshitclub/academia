@@ -19,3 +19,17 @@
 .courseFaqContainer .cFaqs .cFaq p {
   text-align: justify;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .courseFaqs h2 {
+    font-size: 1.5rem;
+  }
+
+  .courseFaqContainer {
+    flex-direction: column;
+  }
+
+  .courseFaqContainer .cFaqs {
+    width: 100%;
+  }
+}

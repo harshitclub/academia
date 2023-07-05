@@ -26,7 +26,10 @@ function page() {
         image={bComm}
       />
       <CourseOverview
-        paragraph="Joining our Business Communication Course means embarking on a holistic learning experience. You will engage in hands-on exercises, real-world simulations, and practical case studies that mirror the challenges faced in the corporate world. Our experienced instructors, who possess a wealth of industry knowledge, will guide you through immersive learning opportunities, enabling you to apply your newfound skills and gain confidence in your ability to communicate effectively."
+        paragraph="Welcome to Campus Sutras' Business Communication course! Effective communication is a cornerstone of success in today's business world. Our comprehensive course on Business Communication is designed to equip individuals with the essential skills and strategies to communicate effectively in a professional setting."
+        paragraph2="In this course, you will embark on a journey to enhance your communication skills and develop a strong foundation for effective business communication. Whether you're a working professional, an aspiring leader, or an entrepreneur, this course is tailored to improve your ability to articulate ideas, build strong relationships, and convey your message with clarity and impact."
+        paragraph3="At Campus Sutras, we believe in the power of experiential learning. Our course curriculum emphasizes practical application and real-world relevance, equipping you with the tools and strategies to excel in various business communication scenarios. You will develop the ability to engage stakeholders, build rapport, resolve conflicts, and foster effective teamwork through effective communication practices."
+        paragraph4="Join us today and unlock the potential of business communication. Whether you're looking to enhance your professional presence, improve your networking abilities, or advance your career prospects, Campus Sutras' Business Communication course will empower you with the skills and confidence to communicate effectively in the modern business landscape."
         benefits={[
           "Effective Communication Skills",
           "Enhanced Interpersonal Skills",
@@ -75,7 +78,7 @@ function page() {
         availability3="Yes"
       />
       <CourseFaqs
-        faqHeading="FAQ's Tableau"
+        faqHeading="FAQ's Business Communication"
         ques1="Q. Demo Question"
         ans1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         ques2="Q. Demo Question"

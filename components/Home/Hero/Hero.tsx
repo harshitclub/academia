@@ -14,7 +14,7 @@ function Hero() {
               <h2>Unlocking the Potential Within</h2>
               <div className="heroDivider"></div>
               <div className="heroDivider2"></div>
-              <h3>Insightize | SkillSync | ProficiencyPlus</h3>
+              <h3>Insighty | SkillSync | ProficiencyPlus</h3>
               <div className="heroDivider"></div>
               <div className="heroDivider2"></div>
               <div className="heroBtns flex">

@@ -26,7 +26,10 @@ function page() {
         image={excel}
       />
       <CourseOverview
-        paragraph="Welcome to the fascinating world of data analytics using Excel! Get ready to uncover hidden insights, make informed decisions, and unleash the true power of data with our comprehensive course. Our Excel course is designed to equip you with the knowledge and techniques to harness the full potential of this powerful tool and become a proficient data analyst. Whether you're a business professional aiming to enhance your analytical abilities, a student preparing for a data-centric career, or an entrepreneur looking to gain a competitive edge, our course caters to all levels of expertise."
+        paragraph="Welcome to Campus Sutras' Data Analytics using Excel course! Excel is a widely recognized and versatile tool that is commonly used for data analysis and manipulation. Our comprehensive course on Data Analytics using Excel is designed to provide you with the essential skills and techniques to effectively analyze and visualize data using this powerful spreadsheet software."
+        paragraph2="In this course, you will embark on a journey to uncover the insights hidden within your data. Whether you're a data professional, business analyst, or a decision-maker seeking to leverage Excel for data-driven decision-making, this course is tailored to enhance your analytical capabilities."
+        paragraph3="At Campus Sutras, we emphasize practical application and real-world relevance. Through hands-on exercises and projects, you will have the opportunity to apply your learning to real datasets, further enhancing your skills and proficiency in data analytics using Excel."
+        paragraph4="Join us today and unlock the potential of data analytics using Excel. Whether you're looking to enhance your analytical skills, improve decision-making processes, or gain a competitive edge in the data-driven world, Campus Sutras' Data Analytics using Excel course will equip you with the knowledge and techniques to harness the power of Excel for effective data analysis and visualization."
         benefits={[
           "Enhanced Data Analysis Skills",
           "Proficiency in Power BI Tools",
@@ -72,7 +75,7 @@ function page() {
         availability3="Yes"
       />
       <CourseFaqs
-        faqHeading="FAQ's Tableau"
+        faqHeading="FAQ's Excel"
         ques1="Q. Demo Question"
         ans1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         ques2="Q. Demo Question"

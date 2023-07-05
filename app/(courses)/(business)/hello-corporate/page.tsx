@@ -13,12 +13,12 @@ function page() {
   return (
     <main className="cToc flex alignCenter justifyCenter flexColumn width100">
       <CourseHero
-        bCrumpLink="/campus-to-corporate"
-        bCrump="Campus To Corporate"
-        h1="Campus To Corporate"
-        h2="Become an Expert With This Campus To Corporate Course"
-        p1={`Welcome to our dynamic and transformative "Campus to Corporate" course, where we equip students and aspirants with the essential skills to navigate the ever-changing landscape of the business world. Are you a driven individual ready to bridge the gap between academia and the corporate realm? Look no further! Our program is specifically designed to empower you with the necessary tools and competencies to excel in today's fast-paced and dynamic professional environment.`}
-        p2={`In the "Campus to Corporate" course, we understand that success in the corporate world goes beyond academic achievements. We focus on honing your interpersonal skills, decision-making abilities, and managerial capabilities required to navigate diverse teams and ever-evolving business priorities. `}
+        bCrumpLink="/hello-corporate"
+        bCrump="Hello Corporate"
+        h1="Hello Corporate"
+        h2="Become an Expert With This Hello Corporate Course"
+        p1={`Welcome to our dynamic and transformative "Hello Corporate" course, where we equip students and aspirants with the essential skills to navigate the ever-changing landscape of the business world. Are you a driven individual ready to bridge the gap between academia and the corporate realm? Look no further! Our program is specifically designed to empower you with the necessary tools and competencies to excel in today's fast-paced and dynamic professional environment.`}
+        p2={`In the "Hello Corporate" course, we understand that success in the corporate world goes beyond academic achievements. We focus on honing your interpersonal skills, decision-making abilities, and managerial capabilities required to navigate diverse teams and ever-evolving business priorities. `}
         price={7999}
         disPrice={1599}
         disPercentage={50}
@@ -47,7 +47,7 @@ function page() {
         highPackage={12}
       />
       <CourseFor
-        paragraph="Our Campus to Corporate Program is ideally suited for a wide range of individuals who are seeking to transition from a campus environment to the corporate world. The course is particularly suitable for:"
+        paragraph="Our Hello Corporate Program is ideally suited for a wide range of individuals who are seeking to transition from a campus environment to the corporate world. The course is particularly suitable for:"
         whoList={[
           "Recent Graduates",
           "MBA Graduates",
@@ -72,7 +72,7 @@ function page() {
         availability3="Yes"
       />
       <CourseFaqs
-        faqHeading="FAQ's Tableau"
+        faqHeading="FAQ's Hello Corporate"
         ques1="Q. Demo Question"
         ans1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         ques2="Q. Demo Question"
