@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./style.css";
 import {
   RiArrowDownSLine,
@@ -9,15 +9,28 @@ import {
 } from "react-icons/ri";
 import Image from "next/image";
 import navLogo from "@/public/assets/campusSutrasLogo.png";
+import { UserContext } from "@/context/Usercontext";
+import axios from "axios";
+import { useRouter } from "next/navigation";
 
 function Navbar() {
+  const { user, setUser } = useContext(UserContext);
   const [navHover, setNavHover] = useState(false);
-
+  const router = useRouter();
   const clickNavHover = () => {
     if (navHover) {
       setNavHover(false);
     } else {
       setNavHover(true);
+    }
+  };
+
+  const logout = async () => {
+    try {
+      await axios.get("/api/logout");
+      router.push("/login");
+    } catch (error: any) {
+      console.log(error.message);
     }
   };
 
@@ -62,12 +75,6 @@ function Navbar() {
                       <li>
                         <a href="/tableau">
                           Tableau
-                          <RiArrowRightUpLine className="subMenuIcons" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/ms-office-fundamentals">
-                          Ms Office Fundamentals
                           <RiArrowRightUpLine className="subMenuIcons" />
                         </a>
                       </li>
@@ -118,7 +125,7 @@ function Navbar() {
                         </a>
                       </li>
                       <li>
-                        <a href="/Cyber Security">
+                        <a href="/cyber-security">
                           Cyber Security
                           <RiArrowRightUpLine className="subMenuIcons" />
                         </a>
@@ -127,12 +134,25 @@ function Navbar() {
                   </li>
                 </ul>
               </li>
-              <li>
-                <a href="/about">About</a>
-              </li>
+
               <li>
                 <a href="/contact">Contact Us</a>
               </li>
+              {!user ? (
+                <li>
+                  <a href="/login">Login</a>
+                </li>
+              ) : (
+                <>
+                  <li>
+                    <a href="/profile">Profile</a>
+                  </li>
+                  <li className="navLogout" onClick={logout}>
+                    Logout
+                  </li>
+                </>
+              )}
+
               <li className="navCall">
                 <a href="/">
                   <RiPhoneFill className="navCallIcon" /> Call Now

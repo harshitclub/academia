@@ -89,3 +89,6 @@
   font-weight: 300;
   margin: 0 0 1rem 0;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+}

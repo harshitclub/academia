@@ -18,17 +18,22 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Courses
+                <a href="/login">
+                  <RiArrowRightUpLine className="fIcons" /> Login
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="/signup">
+                  <RiArrowRightUpLine className="fIcons" /> Signup
+                </a>
+              </li>
+              <li>
+                <a href="/about">
                   <RiArrowRightUpLine className="fIcons" /> About
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="/contact">
                   <RiArrowRightUpLine className="fIcons" /> Contact
                 </a>
               </li>
@@ -38,42 +43,49 @@ function Footer() {
             <h4>&nbsp;&nbsp;&nbsp;&nbsp;Courses</h4>
             <ul>
               <li>
-                <a href="/">
+                <a href="/data-analytics-using-power-bi">
                   <RiArrowRightUpLine className="fIcons" /> Data Analytics Using
                   PowerBI
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="/data-analytics-using-excel">
                   <RiArrowRightUpLine className="fIcons" /> Data Analytics Using
                   Excel
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="/business-communication">
                   <RiArrowRightUpLine className="fIcons" /> Business
                   Communication
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="/ms-office-fundamentals">
                   <RiArrowRightUpLine className="fIcons" /> MS Office
                   Fundamentals
                 </a>
               </li>
               <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Campus To Corporate
+                <a href="/hello-corporate">
+                  <RiArrowRightUpLine className="fIcons" /> Hello Corporate
                 </a>
               </li>
               <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Behavioral Skills
+                <a href="/artificial-intelligence">
+                  <RiArrowRightUpLine className="fIcons" /> Artificial
+                  Intelligence
                 </a>
               </li>
               <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Tableau
+                <a href="/art-of-entrepreneurship">
+                  <RiArrowRightUpLine className="fIcons" /> Art of
+                  Entrepreneurship
+                </a>
+              </li>
+              <li>
+                <a href="/catalog">
+                  <RiArrowRightUpLine className="fIcons" /> All Courses
                 </a>
               </li>
             </ul>

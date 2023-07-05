@@ -26,7 +26,11 @@ function page() {
         image={powerBi}
       />
       <CourseOverview
-        paragraph="Welcome to the Data Analytics Using Power BI course! In today's data-driven world, organizations rely on actionable insights derived from data to make informed decisions. Microsoft Power BI is a powerful business intelligence tool that enables professionals to visualize, analyze, and gain valuable insights from their data. This comprehensive training program will equip you with the skills and knowledge required to harness the full potential of Power BI for effective data analytics."
+        paragraph="
+        Welcome to Campus Sutras' Data Analytics using Power BI course! In today's data-driven world, the ability to extract meaningful insights from vast amounts of data is a valuable skill. Our comprehensive course on Data Analytics using Power BI is designed to equip individuals with the knowledge and skills to harness the power of data and effectively visualize and analyze it using the popular business intelligence tool, Power BI."
+        paragraph2="In this course, you will embark on a journey through the world of data analytics, learning how to transform raw data into actionable insights. Whether you're a data professional, business analyst, or a decision-maker looking to leverage data for informed decision-making, this course is tailored to enhance your analytical capabilities."
+        paragraph3="At Campus Sutras, we believe in a hands-on approach to learning. Through practical exercises and projects, you will have the opportunity to apply your knowledge to real-world scenarios, gaining the confidence and skills to tackle data analytics challenges in your professional journey."
+        paragraph4="Join us today and unlock the power of data analytics with Power BI. Whether you're looking to enhance your career prospects, improve business decision-making, or gain a competitive edge in the data-driven landscape, Campus Sutras' Data Analytics using Power BI course will equip you with the skills and knowledge to harness the full potential of data analytics and drive meaningful insights."
         benefits={[
           "Enhanced Data Analysis Skills",
           "Proficiency in Power BI Tools",
@@ -72,7 +76,7 @@ function page() {
         availability3="Yes"
       />
       <CourseFaqs
-        faqHeading="FAQ's Tableau"
+        faqHeading="FAQ's Power Bi"
         ques1="Q. Demo Question"
         ans1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         ques2="Q. Demo Question"

@@ -113,3 +113,30 @@ table th {
     border-bottom: 0;
   }
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .upcomingTable h2 {
+    font-size: 1.5rem;
+  }
+
+  .upcomingTable h3 {
+    font-size: 1.2rem;
+  }
+
+  .courseCall {
+    flex-direction: column;
+  }
+
+  .courseCall h3 {
+    margin: 0 0 1rem 0;
+  }
+
+  .courseCall p {
+    width: 100%;
+  }
+
+  .courseCall p a {
+    width: 100%;
+    display: block;
+  }
+}

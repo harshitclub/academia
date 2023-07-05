@@ -25,13 +25,23 @@
   font-weight: 300;
 }
 
-.swiper-pagination-bullet-active {
-  background-color: var(--blue) !important;
+.courseSection .courseSContainer p a {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 1px solid var(--blue);
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+
+.courseSection .courseSContainer p a:hover {
+  color: var(--blue);
+  background-color: var(--white);
+  transition: 0.3s;
 }
 
 .courseSection .courseSContainer .coursesTab .courseTBox {
-  width: 100%;
-  margin: 0 0 2.5rem 0;
+  width: 19.5%;
+  margin: 0 0 2rem 0;
   cursor: e-resize;
 }
 
@@ -87,4 +97,18 @@
   border-radius: 0.2rem;
   font-size: 1rem;
   padding: 0.2rem 1rem;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .courseSection .courseSContainer h2 {
+    font-size: 1.5rem;
+  }
+
+  .courseSection .courseSContainer .coursesTab {
+    flex-direction: column;
+  }
+
+  .courseSection .courseSContainer .coursesTab .courseTBox {
+    width: 100%;
+  }
 }

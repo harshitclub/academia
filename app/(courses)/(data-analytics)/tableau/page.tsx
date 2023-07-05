@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import UpcomingBatch from "@/components/CComponents/UpcomingBatch/UpcomingBatch";
-import { RiCheckboxCircleFill, RiDownloadLine } from "react-icons/ri";
 import CourseGraph from "@/components/CComponents/CourseGraph/CourseGraph";
 import CourseHero from "@/components/CComponents/CourseHero/CourseHero";
 import tableau from "@/public/assets/tableau.jpg";
@@ -27,15 +26,10 @@ function page() {
         image={tableau}
       />
       <CourseOverview
-        paragraph="Welcome to the exciting world of Tableau! Get ready to unlock the
-            full potential of your data with our comprehensive Tableau course.
-            Are you tired of sifting through rows and columns of data,
-            struggling to make sense of it all? With our Tableau course, you'll
-            gain the skills and knowledge to transform raw data into captivating
-            visualizations that tell compelling stories. Whether you're a
-            business professional looking to enhance your analytical skills or a
-            data enthusiast eager to dive into the world of data visualization,
-            our course is designed to cater to all levels of expertise."
+        paragraph="Welcome to Campus Sutras' Tableau course! Tableau is a leading data visualization and business intelligence tool that empowers individuals and organizations to explore, analyze, and communicate data insights in a visually compelling manner. Our comprehensive course on Tableau is designed to equip you with the skills and knowledge to leverage this powerful tool for effective data visualization and analysis."
+        paragraph2="In this course, you will embark on a journey to unlock the full potential of your data. Whether you're a data analyst, business professional, or aspiring data visualization expert, this course is tailored to enhance your ability to discover valuable insights and communicate them with impact."
+        paragraph3="At Campus Sutras, we believe in learning by doing. Through practical exercises and projects, you will have the opportunity to apply your knowledge to real-world scenarios, further honing your Tableau skills and building a portfolio of impactful visualizations."
+        paragraph4="Join us today and unlock the power of data visualization with Tableau. Whether you're looking to enhance your data analysis skills, improve decision-making processes, or effectively communicate data insights, Campus Sutras' Tableau course will provide you with the tools and knowledge to transform raw data into meaningful visualizations that drive actionable insights."
         benefits={[
           "Data Visualization Mastery",
           "Enhanced Data Analysis Skills",
