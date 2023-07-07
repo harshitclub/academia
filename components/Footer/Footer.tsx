@@ -18,13 +18,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/login">
-                  <RiArrowRightUpLine className="fIcons" /> Login
-                </a>
-              </li>
-              <li>
-                <a href="/signup">
-                  <RiArrowRightUpLine className="fIcons" /> Signup
+                <a href="/profile">
+                  <RiArrowRightUpLine className="fIcons" /> Account
                 </a>
               </li>
               <li>

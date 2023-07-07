@@ -36,7 +36,7 @@ function page() {
                 <HiOutlineLocationMarker className="margin-1" />
                 &nbsp;|&nbsp;
               </span>
-              iThum Tower C 308 | Sector 62 | Noida 201309
+              Sector 62 | Noida 201309
             </p>
             <p className="directionBtn">
               <span>

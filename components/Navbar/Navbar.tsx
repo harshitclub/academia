@@ -138,21 +138,9 @@ function Navbar() {
               <li>
                 <a href="/contact">Contact Us</a>
               </li>
-              {!user ? (
-                <li>
-                  <a href="/login">Login</a>
-                </li>
-              ) : (
-                <>
-                  <li>
-                    <a href="/profile">Profile</a>
-                  </li>
-                  <li className="navLogout" onClick={logout}>
-                    Logout
-                  </li>
-                </>
-              )}
-
+              <li>
+                <a href="/profile">Account</a>
+              </li>
               <li className="navCall">
                 <a href="/">
                   <RiPhoneFill className="navCallIcon" /> Call Now

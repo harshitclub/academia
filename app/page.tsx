@@ -7,12 +7,14 @@ import FaqSection from "@/components/Home/FaqSection/FaqSection";
 import Immersive from "@/components/Home/Immersive/Immersive";
 import WhyChoose from "@/components/Home/WhyChoose/WhyChoose";
 import LearnSection from "@/components/Home/LearnSection/LearnSection";
+import VerifyVoucher from "@/components/Home/VerifyVoucher/VerifyVoucher";
 
 export default function Home() {
   return (
     <main>
       <Hero />
       <CoursesSection heading="Explore Our Courses" />
+      <VerifyVoucher />
       <WhyChoose />
       <Immersive />
       <LearnSection />

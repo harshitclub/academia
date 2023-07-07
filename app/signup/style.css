@@ -76,3 +76,23 @@
 .loginLinkIcon {
   margin: 0 0 -0.2rem 0;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .signupContainer .signupBox {
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+  }
+  .signupContainer .signupBox .signupImage img {
+    width: 100%;
+  }
+  .signupContainer .signupBox .signupForm {
+    width: 100%;
+  }
+  .signupContainer .signupBox .signupForm form {
+    width: 100%;
+  }
+  .signupContainer .signupBox .signupImage {
+    display: none;
+  }
+}

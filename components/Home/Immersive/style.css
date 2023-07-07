@@ -71,3 +71,15 @@
   margin: 0 0 -0.18rem 0;
   color: var(--blue);
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .immersive .immersiveContainer .immersiveTab {
+    flex-direction: column;
+  }
+  .immersive .immersiveContainer .immersiveTab .iBoxLeft {
+    width: 100%;
+  }
+  .immersive .immersiveContainer .immersiveTab .iBoxRight {
+    width: 100%;
+  }
+}
