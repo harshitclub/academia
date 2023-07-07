@@ -33,3 +33,19 @@
   margin: 0 0 -0.2rem 0;
   color: var(--blue);
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .OurVisionSection .OurVisionSContainer .ourVTab {
+    flex-direction: column;
+  }
+  .OurVisionSection .OurVisionSContainer .ourVTab .ourVLeft {
+    width: 100%;
+  }
+
+  .OurVisionSection .OurVisionSContainer .ourVTab .ourVRight {
+    width: 100%;
+  }
+  .OurVisionSection .OurVisionSContainer .ourVTab .ourVRight img {
+    width: 100%;
+  }
+}

@@ -34,6 +34,7 @@ export async function POST(request) {
     });
 
     const savedUser = await newUser.save();
+
     // send voucher
     await sendVoucher({
       email,

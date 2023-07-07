@@ -91,4 +91,20 @@
 }
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
+  .hero .heroContainer .heroContainerChild {
+    flex-direction: column;
+  }
+
+  .hero .heroContainer .heroContainerChild .heroCCLeft {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  .hero .heroContainer .heroContainerChild .heroCCRight {
+    width: 100%;
+  }
+
+  .hero .heroContainer .heroContainerChild .heroCCRight .heroForm {
+    width: 100%;
+  }
 }

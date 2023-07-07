@@ -1,6 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import "./style.css";
+import { TbMail } from "react-icons/tb";
+import { FcApproval, FcHighPriority } from "react-icons/fc";
 
 const page = () => {
   const [token, setToken] = useState("");
@@ -28,19 +31,29 @@ const page = () => {
 
   return (
     <>
-      <h1>Verify Your Email</h1>
-      <h2>{token ? `${token}` : "No Token"}</h2>
-      {verified && (
-        <div>
-          <h2>Email Verified</h2>
-          <a href="/login">Login</a>
+      <section className="verifyEmail width100 flex alignCenter justifyCenter">
+        <div className="verifyEmailContainer width95 ">
+          <h1>
+            Verify Your Email Address <TbMail className="margin-3" />
+          </h1>
+          <h2>{token ? `Processing...` : "Processing..."}</h2>
+          {verified && (
+            <div>
+              <h2>
+                Email Verified <FcApproval className="margin-2" />
+              </h2>
+              <p>
+                <a href="/login">Login</a>
+              </p>
+            </div>
+          )}
+          {error && (
+            <h2>
+              Error <FcHighPriority className="margin-2" />
+            </h2>
+          )}
         </div>
-      )}
-      {error && (
-        <div>
-          <h2>Error</h2>
-        </div>
-      )}
+      </section>
     </>
   );
 };

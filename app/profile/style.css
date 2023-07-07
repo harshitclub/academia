@@ -1,0 +1,120 @@
+.profileContainer {
+  margin: 2rem 0;
+}
+
+.profileContainer h1 {
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.profileContainer .accountContainer {
+  border: 1px solid #c5c5c5;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.profileContainer .accountContainer .accountBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 0 0.5rem 0;
+  padding: 0 0 0.5rem 0;
+}
+
+.profileContainer .accountContainer .accountBox .accountHeading {
+  width: 30%;
+}
+
+.profileContainer .accountContainer .accountBox .accountHeading h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.profileContainer .accountContainer .accountBox .accountInfo {
+  width: 60%;
+}
+
+.profileContainer .accountContainer .accountBox .accountInfo input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--blue);
+  outline: none;
+  width: 50%;
+  border-radius: 0.2rem;
+  margin: 0 1rem 0 0;
+}
+
+.fPasswordBtn {
+  background-color: var(--blue);
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  color: var(--white);
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.profileContainer .accountContainer .accountBox .accountInfo button {
+  padding: 0.5rem 1rem;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--blue);
+  cursor: pointer;
+  margin: 0 1rem 0 0;
+}
+
+.verificationData {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  color: var(--blue);
+  display: inline-block;
+}
+
+.loader {
+  display: inline-block;
+  border: 3px solid #f3f3f3; /* Light grey */
+  border-top: 3px solid var(--blue); /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+.profileHead button {
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--blue);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .profileContainer {
+    margin: 1rem 0 2rem 0;
+  }
+  .profileContainer .accountContainer .accountBox {
+    flex-direction: column;
+  }
+  .profileContainer .accountContainer .accountBox .accountHeading {
+    width: 100%;
+    margin: 0 0 0.5rem 0;
+  }
+  .profileContainer .accountContainer .accountBox .accountInfo {
+    width: 100%;
+  }
+}

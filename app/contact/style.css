@@ -62,3 +62,25 @@
   margin: 0 0 0.5rem 0;
   font-size: 1.2rem;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .contactContainer {
+    padding: 3rem 0 1rem 0;
+  }
+  .contactData {
+    flex-direction: column;
+  }
+
+  .contactContainer .contactCLeft {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  .contactContainer .contactCRight {
+    width: 100%;
+  }
+
+  .contactContainer .contactCRight .contactForm {
+    padding: 1rem;
+  }
+}

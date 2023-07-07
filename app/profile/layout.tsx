@@ -3,5 +3,9 @@ export default function ProfileLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <main className="profile">{children}</main>;
+  return (
+    <main className="profile flex alignCenter justifyCenter width100 flexColumn">
+      {children}
+    </main>
+  );
 }

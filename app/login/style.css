@@ -82,3 +82,19 @@
 .signupLinkIcon {
   margin: 0 0 -0.2rem 0;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .loginContainer .loginBox {
+    flex-direction: column;
+    width: 100%;
+    margin: 3rem 0 3rem 0;
+  }
+
+  .loginContainer .loginBox .loginImage {
+    display: none;
+  }
+
+  .loginContainer .loginBox .loginForm {
+    width: 100%;
+  }
+}

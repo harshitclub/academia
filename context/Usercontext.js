@@ -8,10 +8,15 @@ export const Userprovider = ({ children }) => {
   const [user, setUser] = useState(false);
 
   const getUser = async () => {
-    const res = await axios.get("/api/me");
-
-    console.log(res.data);
-    setUser(res.data.data);
+    try {
+      const res = await axios.get("/api/me");
+      if (res) {
+        console.log(res.data);
+        setUser(res.data.data);
+      }
+    } catch (error) {
+      console.log("No User Found!");
+    }
   };
 
   useEffect(() => {

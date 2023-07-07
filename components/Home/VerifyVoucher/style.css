@@ -1,0 +1,92 @@
+.verifyVoucher {
+  margin: 2rem 0 3rem 0;
+}
+
+.verifyVoucher .verifyContainer h2 {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+
+.verifyVoucher .verifyContainer .vvInput {
+  width: 40%;
+}
+
+.verifyVoucher .verifyContainer .vvBox {
+  gap: 1rem;
+}
+.verifyVoucher .verifyContainer .vvInput input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--blue);
+  outline: none;
+  width: 100%;
+  border-radius: 0.2rem;
+}
+
+.verifyVoucher .verifyContainer .vvBtn {
+  width: 10%;
+}
+.verifyVoucher .verifyContainer .vvBtn button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--blue);
+  cursor: pointer;
+}
+
+.verifyVoucher .verifyContainer .vvContent {
+  width: 50%;
+}
+
+.loader {
+  border: 3px solid #f3f3f3; /* Light grey */
+  border-top: 3px solid var(--blue); /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+.loader2 {
+  border: 3px solid #f3f3f3; /* Light grey */
+  border-top: 3px solid var(--blue); /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin2 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .verifyVoucher .verifyContainer .vvBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .verifyVoucher .verifyContainer .vvInput {
+    width: 100%;
+  }
+  .verifyVoucher .verifyContainer .vvBtn {
+    width: 30%;
+  }
+}

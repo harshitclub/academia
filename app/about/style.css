@@ -54,3 +54,39 @@
   margin: 0 0 1rem 0;
   text-align: justify;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .aboutHero {
+    padding: 2rem 0 2rem 0;
+  }
+  .aboutHero .aboutHeroContainer {
+    flex-direction: column;
+  }
+
+  .aboutHero .aboutHeroContainer .aboutHeroLeft {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  .aboutHero .aboutHeroContainer .aboutHeroRight {
+    width: 100%;
+  }
+
+  .aboutHero .aboutHeroContainer .aboutHeroRight img {
+    width: 100%;
+  }
+
+  .aboutContent .aboutCContainer {
+    flex-direction: column-reverse;
+  }
+
+  .aboutContent .aboutCContainer .aboutCCLeft {
+    width: 100%;
+  }
+  .aboutContent .aboutCContainer .aboutCCLeft img {
+    width: 100%;
+  }
+  .aboutContent .aboutCContainer .aboutCCRight {
+    width: 100%;
+  }
+}
