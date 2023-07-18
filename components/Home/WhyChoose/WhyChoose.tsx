@@ -3,9 +3,9 @@ import "./style.css";
 import { HiChevronDoubleDown } from "react-icons/hi";
 import BigDivider from "@/components/BigDivider/BigDivider";
 import Image from "next/image";
-import whyImage1 from "@/public/assets/whyimage1.jpg";
-import whyImage2 from "@/public/assets/whyimage2.jpg";
-import whyImage3 from "@/public/assets/whyimage3.jpg";
+import whyImage1 from "@/public/assets/whyImage1.jpg";
+import whyImage2 from "@/public/assets/whyImage2.jpg";
+import whyImage3 from "@/public/assets/whyImage3.jpg";
 
 function WhyChoose() {
   return (
