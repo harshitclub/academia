@@ -3,20 +3,19 @@
 import React, { useState, useContext } from "react";
 import "./style.css";
 import {
-  RiArrowDownSLine,
-  RiArrowRightUpLine,
+  RiMailLine,
+  RiMenuLine,
   RiPhoneFill,
+  RiUser3Fill,
 } from "react-icons/ri";
 import Image from "next/image";
 import navLogo from "@/public/assets/campusSutrasLogo.png";
 import { UserContext } from "@/context/Usercontext";
 import axios from "axios";
-import { useRouter } from "next/navigation";
 
 function Navbar() {
   const { user, setUser } = useContext(UserContext);
   const [navHover, setNavHover] = useState(false);
-  const router = useRouter();
   const clickNavHover = () => {
     if (navHover) {
       setNavHover(false);
@@ -24,11 +23,25 @@ function Navbar() {
       setNavHover(true);
     }
   };
+  const [vLoading, setVLoading] = React.useState(false);
 
-  const logout = async () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    if (showMenu === false) {
+      setShowMenu(true);
+      document.body.style.overflow = "hidden";
+    } else {
+      setShowMenu(false);
+      document.body.style.overflow = "auto";
+    }
+  };
+
+  const sendVEmail = async () => {
     try {
-      await axios.get("/api/logout");
-      router.push("/login");
+      setVLoading(true);
+      await axios.get("/api/send-verify-mail");
+      setVLoading(false);
     } catch (error: any) {
       console.log(error.message);
     }
@@ -36,6 +49,20 @@ function Navbar() {
 
   return (
     <header>
+      {user && user.isVerified === false ? (
+        <div className="verifyTopBar width100 flex alignCenter justifyCenter">
+          <div className="verifyTopBarContainer flex alignCenter justifyCenter spaceBtw width95 maxWidth">
+            <p>
+              Your <RiMailLine className="margin-2" /> Email is not Verified |
+              Verify Email to Get Rs.1000 Voucher
+            </p>
+            <button onClick={sendVEmail}>
+              {vLoading ? "Sending..." : "Send Verify Mail"}
+            </button>
+          </div>
+        </div>
+      ) : null}
+
       <nav className="flex alignCenter justifyCenter width100">
         <div className="navContainer flex alignCenter justifyCenter spaceBtw width95 maxWidth">
           <div className="navLogo flex alignCenter justifyCenter">
@@ -43,12 +70,22 @@ function Navbar() {
               <Image src={navLogo} alt="Campus Sutras Logo" />
             </a>
           </div>
-          <div className="menu flex alignCenter justifyCenter">
+          <div className="mMenuBtn">
+            <RiMenuLine onClick={toggleMenu} />
+          </div>
+          <div
+            className={`menu flex alignCenter justifyCenter ${
+              showMenu ? "showNav" : ""
+            }`}
+          >
             <ul className="flex alignCenter justifyCenter">
               <li>
                 <a href="/">Home</a>
               </li>
-              <li className="coursesMenu" onClick={clickNavHover}>
+              <li className="mMenuBtn">
+                <a href="/catalog">Courses</a>
+              </li>
+              {/* <li className="coursesMenu mDisplayNone" onClick={clickNavHover}>
                 Courses <RiArrowDownSLine className="navRIconMain" />
                 <ul className={`subMenu ${navHover ? "showSubMenu" : ""}`}>
                   <li className="daMainMenu">
@@ -133,18 +170,16 @@ function Navbar() {
                     </ul>
                   </li>
                 </ul>
-              </li>
+              </li> */}
 
               <li>
-                <a href="/contact">Contact Us</a>
+                <RiUser3Fill className="margin-1 accIcon" />{" "}
+                <a href="/profile">
+                  {user ? `${user.fullName.split(" ")[0]}` : "Account"}
+                </a>
               </li>
               <li>
-                <a href="/profile">Account</a>
-              </li>
-              <li className="navCall">
-                <a href="/">
-                  <RiPhoneFill className="navCallIcon" /> Call Now
-                </a>
+                <a href="/contact">Contact Us</a>
               </li>
             </ul>
           </div>

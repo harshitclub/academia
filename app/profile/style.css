@@ -46,9 +46,25 @@
   margin: 0 1rem 0 0;
 }
 
-.fPasswordBtn {
+.fPasswordBtn a {
   background-color: var(--blue);
   display: inline-block;
+  padding: 0.2rem 0.5rem;
+  color: var(--white);
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.editNameIcon {
+  font-size: 1.2rem;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.verifyEmailBtn {
+  background-color: var(--blue);
+  display: inline-block;
+  margin: 0 0 0 1rem;
   padding: 0.2rem 0.5rem;
   color: var(--white);
   border-radius: 0.2rem;

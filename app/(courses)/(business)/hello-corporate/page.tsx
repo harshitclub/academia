@@ -19,10 +19,10 @@ function page() {
         h2="Become an Expert With This Hello Corporate Course"
         p1={`Welcome to our dynamic and transformative "Hello Corporate" course, where we equip students and aspirants with the essential skills to navigate the ever-changing landscape of the business world. Are you a driven individual ready to bridge the gap between academia and the corporate realm? Look no further! Our program is specifically designed to empower you with the necessary tools and competencies to excel in today's fast-paced and dynamic professional environment.`}
         p2={`In the "Hello Corporate" course, we understand that success in the corporate world goes beyond academic achievements. We focus on honing your interpersonal skills, decision-making abilities, and managerial capabilities required to navigate diverse teams and ever-evolving business priorities. `}
-        price={7999}
-        disPrice={1599}
+        price={17999}
+        disPrice={35998}
         disPercentage={50}
-        duration="2 Days"
+        duration="40 Hours"
         image={cToc}
       />
       <CourseOverview

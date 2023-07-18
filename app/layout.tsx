@@ -12,8 +12,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Campus Sutras - Your Gateway to Professional Success",
+  description:
+    "Join Campus Sutras and take charge of your career with comprehensive IT courses, soft skills development, and more. Empower yourself with outcome-centric learning, post-training support, etc,. Start your journey towards success today!",
 };
 
 export default function RootLayout({

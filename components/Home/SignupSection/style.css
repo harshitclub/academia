@@ -1,0 +1,38 @@
+.signupSection {
+  padding: 2rem 0 0 0;
+}
+
+.signupSCLeft h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.signupSCLeft p {
+  margin: 0 0 1rem 0;
+  text-align: justify;
+}
+
+.signupSCLeft p span {
+  font-size: 1.3rem;
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.signupSCLeft p a {
+  color: var(--white);
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.signupSCLeft p a:hover {
+  background-color: var(--white);
+  color: var(--blue);
+  transition: 0.3s;
+}
+
+.signupSCRight img {
+  width: 25rem;
+  height: auto;
+}

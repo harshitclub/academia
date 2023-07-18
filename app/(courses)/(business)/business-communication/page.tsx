@@ -19,10 +19,10 @@ function page() {
         h2="Become an Expert With This Business Communication Course"
         p1="Welcome to our dynamic and transformative Business Communication Course, where the power of effective communication takes center stage! In today's fast-paced business world, the ability to communicate with clarity, impact, and professionalism is paramount. Are you ready to unlock your communication potential and gain a competitive edge in the corporate arena? Look no further!"
         p2="Through a comprehensive curriculum and interactive learning experiences, our course takes you on a transformative journey of communication mastery. You will explore the intricacies of verbal and non-verbal communication, learn to craft compelling messages, and navigate the complexities of interpersonal interactions in diverse business settings."
-        price={7999}
-        disPrice={1599}
+        price={11999}
+        disPrice={23998}
         disPercentage={50}
-        duration="24 Hours"
+        duration="40 Hours"
         image={bComm}
       />
       <CourseOverview

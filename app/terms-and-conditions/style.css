@@ -1,0 +1,53 @@
+.termsConditions {
+  margin: 1rem 0 2rem 0;
+  text-align: justify;
+}
+
+.termsConditions h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.termsConditions p {
+  margin: 0 0 1rem 0;
+}
+
+.termsConditions h2 {
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.termsConditions h3 {
+  font-weight: 500;
+  margin: 0 0 0.3rem 0;
+  font-size: 1.5rem;
+}
+
+.termsConditions h4 {
+  font-weight: 500;
+  margin: 0 0 0.3rem 0;
+  font-size: 1.3rem;
+}
+
+.termsConditions ul {
+  margin: 0 0 1rem 0;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.termsConditions ul li {
+  margin: 0 0 0.3rem 0;
+}
+
+.termsConditions ul li span {
+  font-weight: 500;
+}
+
+.termsConditionsContainer {
+  width: 80%;
+}
+
+.tccontainershort {
+  margin: 0 2rem 0 2rem;
+}

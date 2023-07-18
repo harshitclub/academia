@@ -5,11 +5,8 @@ import Image from "next/image";
 import { RiLockPasswordLine, RiLoginBoxLine, RiMailLine } from "react-icons/ri";
 import "./style.css";
 import axios from "axios";
-import { toast } from "react-hot-toast";
-import { useRouter } from "next/navigation";
 
 function page() {
-  const router = useRouter();
   const [user, setUser] = React.useState({
     email: "",
     password: "",
@@ -22,11 +19,9 @@ function page() {
       setLoading(true);
       const response = await axios.post("/api/login", user);
       console.log("Login Success!", response.data);
-      toast.success("Login Success");
-      router.push("/profile");
+      window.location.reload();
     } catch (error: any) {
       console.log("Login Failed", error.message);
-      toast.error(error.message);
     } finally {
       setLoading(false);
     }

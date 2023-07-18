@@ -32,9 +32,9 @@ export const sendEmail = async({email , emailType, userId}:any)=>{
             html: `
             <html>
             <body>
-            <h3>Click Here To Verify- {<a href={${process.env.DOMAIN}/verifyemail?token=${hashedToken}}>VERIFY</a>}</h3>
-            <h3>or copy and paste the below link in your browser</h3>
-            <h3>${process.env.DOMAIN}/verifyemail?token=${hashedToken}</h3>
+            <p>Click Here To Verify- <a href={${process.env.DOMAIN}/verifyemail?token=${hashedToken}}>VERIFY</a></p>
+            <p>or copy and paste the below link in your browser</p>
+            <p>${process.env.DOMAIN}/verifyemail?token=${hashedToken}</p>
             </body>
             </html>
             `

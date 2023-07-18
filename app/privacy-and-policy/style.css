@@ -1,0 +1,53 @@
+.privacyPolicy {
+  margin: 1rem 0 2rem 0;
+  text-align: justify;
+}
+
+.privacyPolicy h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.privacyPolicy p {
+  margin: 0 0 1rem 0;
+}
+
+.privacyPolicy h2 {
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+}
+
+.privacyPolicy h3 {
+  font-weight: 500;
+  margin: 0 0 0.3rem 0;
+  font-size: 1.5rem;
+}
+
+.privacyPolicy h4 {
+  font-weight: 500;
+  margin: 0 0 0.3rem 0;
+  font-size: 1.3rem;
+}
+
+.privacyPolicy ul {
+  margin: 0 0 1rem 0;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.privacyPolicy ul li {
+  margin: 0 0 0.3rem 0;
+}
+
+.privacyPolicy ul li span {
+  font-weight: 500;
+}
+
+.privacyPolicyContainer {
+  width: 80%;
+}
+
+.ppcontainershort {
+  margin: 0 2rem 0 2rem;
+}

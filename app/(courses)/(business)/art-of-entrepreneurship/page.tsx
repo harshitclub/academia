@@ -18,8 +18,8 @@ function page() {
         h2="Become an Expert With This Art of Entrepreneurship Course"
         p1="The Art of Entrepreneurship is an engaging and transformative course that explores the principles, strategies, and mindset required to succeed as an entrepreneur. Entrepreneurship is the process of identifying opportunities, taking calculated risks, and creating innovative solutions to meet market demands. "
         p2="The Art of Entrepreneurship course goes beyond traditional business practices and focuses on the creative and strategic aspects of starting and growing a successful venture. The course emphasizes the importance of creativity, innovation, and adaptability in the entrepreneurial journey."
-        price={7999}
-        disPrice={1599}
+        price={23450}
+        disPrice={46900}
         disPercentage={50}
         duration="40 Hours"
         image={entrepreneurship}

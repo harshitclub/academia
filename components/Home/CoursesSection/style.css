@@ -60,27 +60,26 @@
   width: 100%;
   height: auto;
   border-radius: 0.3rem;
-  z-index: -9;
 }
 
 .courseSection .courseSContainer .coursesTab .courseTBox .coursesTBoxC {
   background-color: var(--blue);
   color: var(--white);
-  margin: -4rem 0.3rem 0 0.3rem;
+  margin: -1rem 0 0 0;
   border-radius: 0.3rem;
   z-index: 999;
-  padding: 0.5rem;
-  height: 14rem;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  height: 7rem;
 }
 
 .courseSection .courseSContainer .coursesTab .courseTBox .coursesTBoxC h4 {
-  font-weight: 300;
+  font-weight: 400;
   margin: 0 0 0.5rem 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .courseSIcon {
@@ -88,7 +87,8 @@
 }
 
 .courseSection .courseSContainer .coursesTab .courseTBox .coursesTBoxC p {
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0 0;
+  font-size: 1rem;
 }
 
 .courseSection .courseSContainer .coursesTab .courseTBox .coursesTBoxC p a {

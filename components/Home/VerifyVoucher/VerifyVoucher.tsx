@@ -26,7 +26,7 @@ function VerifyVoucher() {
 
   return (
     <section className="verifyVoucher flex width100 alignStart justifyCenter">
-      <div className="verifyContainer width95">
+      <div className="verifyContainer width95 maxWidth">
         <h2>Verify Voucher</h2>
         <BigDivider />
         <div className="vvBox flex alignCenter justifyStart">

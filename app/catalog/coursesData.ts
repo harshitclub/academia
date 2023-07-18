@@ -12,10 +12,46 @@ import entre from '@/public/assets/entrepreneurship.jpg'
 
 export const dataAnalysisCourses = [
     {
+        id:11,
+        image:cSkills,
+        courseName:"Hello Corporate",
+        courseDuration:"40 Hours",
+        time:"2-3 Hrs",
+        mode:"Online | Offline",
+        link:"/hello-corporate"
+    },
+    {
+        id:10,
+        image:bcSkills,
+        courseName:"Business Communication",
+        courseDuration:"40 Hours",
+        time:"2-3 Hrs",
+        mode:"Online | Offline",
+        link:"/business-communication"
+    },
+    {
+        id:9,
+        image:entre,
+        courseName:"Art of Entrepreneurship",
+        courseDuration:"40 Hours",
+        time:"2-3 Hrs",
+        mode:"Online | Offline",
+        link:"/art-of-entrepreneurship"
+    },
+    {
+        id:8,
+        image:msoffice,
+        courseName:"MS Office Fundamentals",
+        courseDuration:"32 Hours",
+        time:"2-3 Hrs",
+        mode:"Online | Offline",
+        link:"/ms-office-fundamentals"
+    },
+    {
         id:1,
         image:dae,
         courseName:"Excel",
-        courseDuration:"6 Months",
+        courseDuration:"24 Hours",
         time:"2-3 Hrs",
         mode:"Online | Offline",
         link:"/data-analysis-using-excel"
@@ -24,7 +60,7 @@ export const dataAnalysisCourses = [
         id:2,
         image:dapbi,
         courseName:"Power Bi",
-        courseDuration:"6 Months",
+        courseDuration:"32 Hours",
         time:"2-3 Hrs",
         mode:"Online | Offline",
         link:"/data-analysis-using-power-bi"
@@ -33,7 +69,7 @@ export const dataAnalysisCourses = [
         id:3,
         image:powerQuery,
         courseName:"Power Query",
-        courseDuration:"6 Months",
+        courseDuration:"32 Hours",
         time:"2-3 Hrs",
         mode:"Online | Offline",
         link:"/data-analysis-using-power-query"
@@ -42,82 +78,54 @@ export const dataAnalysisCourses = [
         id:4,
         image:tableau,
         courseName:"Tableau",
-        courseDuration:"6 Months",
+        courseDuration:"32 Hours",
         time:"2-3 Hrs",
         mode:"Online | Offline",
         link:"/tableau"
     },
-  
-]
-
-export const ai = [
     {
-        id:1,
+        id:5,
         image:artificialImage,
         courseName:"Artificial Intelligence",
-        courseDuration:"6 Months",
+        courseDuration:"40 Hours",
         time:"2-3 Hrs",
         mode:"Online | Offline",
         link:"/artificial-intelligence"
     },
     {
-        id:2,
+        id:6,
         image:gpt,
         courseName:"GPT V3.5 & GPT V4.0",
-        courseDuration:"6 Months",
+        courseDuration:"32 Hours",
         time:"2-3 Hrs",
         mode:"Online | Offline",
         link:"/gpt-v3-5-and-gpt-v4-0"
     },
-]
 
-export const itSkills = [
     {
-        id:1,
+        id:7,
         image:cyberSecurity,
         courseName:"Cyber Security",
-        courseDuration:"6 Months",
+        courseDuration:"40 Hours",
         time:"2-3 Hrs",
         mode:"Online | Offline",
         link:"/cyber-security"
     },
-    {
-        id:2,
-        image:msoffice,
-        courseName:"MS Office Fundamentals",
-        courseDuration:"6 Months",
-        time:"2-3 Hrs",
-        mode:"Online | Offline",
-        link:"/ms-office-fundamentals"
-    },
+    
+    
+   
+   
+  
+]
+
+export const ai = [
+    
+]
+
+export const itSkills = [
+    
 ]
 
 export const business = [
-    {
-        id:1,
-        image:entre,
-        courseName:"Art of Entrepreneurship",
-        courseDuration:"6 Months",
-        time:"2-3 Hrs",
-        mode:"Online | Offline",
-        link:"/art-of-entrepreneurship"
-    },
-    {
-        id:2,
-        image:bcSkills,
-        courseName:"Business Communication",
-        courseDuration:"6 Months",
-        time:"2-3 Hrs",
-        mode:"Online | Offline",
-        link:"/business-communication"
-    },
-    {
-        id:3,
-        image:cSkills,
-        courseName:"Hello Corporate",
-        courseDuration:"6 Months",
-        time:"2-3 Hrs",
-        mode:"Online | Offline",
-        link:"/hello-corporate"
-    },
+    
 ]

@@ -23,5 +23,6 @@ export const config = {
       '/profile',
       '/login',
       '/signup',
+      '/change-password'
     ]
   }
