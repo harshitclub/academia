@@ -28,7 +28,7 @@ function page() {
             </p>
             <p>
               With a focus on IT courses, soft skills development, and much
-              more, Corp Siksha is your one-stop destination for honing your
+              more, Campus Sutras is your one-stop destination for honing your
               talents and enhancing your professional growth.
             </p>
             <p>

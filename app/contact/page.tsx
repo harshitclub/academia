@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
-import EnquiryForm from "@/components/EnquiryForm/EnquiryForm";
+
 import { RiLinksLine, RiMapPinRangeLine, RiPhoneLine } from "react-icons/ri";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import CoursesSection from "@/components/Home/CoursesSection/CoursesSection";
 import BigDivider from "@/components/BigDivider/BigDivider";
 import BreadCrumps from "@/components/BreadCrumps/BreadCrumps";
+import contactImage from "@/public/assets/contactImage.png";
+import Image from "next/image";
 
 function page() {
   return (
@@ -47,10 +49,7 @@ function page() {
             </p>
           </div>
           <div className="contactCRight width40">
-            <div className="contactForm">
-              <h2>Share Your Details, We'll Handle the Rest!</h2>
-              <EnquiryForm />
-            </div>
+            <Image src={contactImage} alt="" />
           </div>
         </div>
       </section>

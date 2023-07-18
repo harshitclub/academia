@@ -13,7 +13,9 @@ import {
   RiUser3Line,
 } from "react-icons/ri";
 import BigDivider from "@/components/BigDivider/BigDivider";
-import { toast } from "react-hot-toast";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 function page() {
   const router = useRouter();
@@ -45,11 +47,23 @@ function page() {
       } else {
         const response = await axios.post("/api/signup", user);
         console.log("Signup Success", response.data);
+        <ToastContainer
+          position="top-right"
+          autoClose={1900}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+        />;
         router.push("/login");
       }
     } catch (error: any) {
       console.log("Signup Failed", error.message);
-      toast.error(error.message);
+      // toast.error(error.message);
     } finally {
       setLoading(false);
     }

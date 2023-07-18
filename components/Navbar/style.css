@@ -1,12 +1,33 @@
 header nav {
-  height: 3.5rem;
-  background-color: var(--blue);
+  height: 4rem;
+  background-color: white;
+  color: black;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.verifyTopBarContainer {
+  padding: 0.5rem 0;
+}
+
+.verifyTopBarContainer button {
   color: var(--white);
+  transition: 0.3s;
+  background-color: var(--blue);
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--blue);
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.mMenuBtn {
+  display: none;
 }
 
 header nav .navContainer .navLogo img {
-  width: 10rem;
+  width: 11rem;
   height: auto;
+  margin: 0.2rem 0 0 0;
 }
 
 header nav .navContainer .menu ul {
@@ -14,7 +35,7 @@ header nav .navContainer .menu ul {
 }
 
 header nav .navContainer .menu ul li a {
-  color: var(--white);
+  color: black;
 }
 
 header nav .navContainer .menu ul .navCall {
@@ -23,9 +44,11 @@ header nav .navContainer .menu ul .navCall {
 }
 
 header nav .navContainer .menu ul .navCall a {
-  color: var(--blue);
+  color: var(--white);
+  border-radius: 0.2rem;
   display: block;
   padding: 0.2rem 0.5rem;
+  background-color: var(--blue);
 }
 
 header nav .navContainer .menu ul .navCall a .navCallIcon {
@@ -114,7 +137,76 @@ header nav .navContainer .menu ul li .subMenu .msMenu li {
 }
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
-  header nav .navContainer .menu {
+  .mMenuBtn {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .verifyTopBarContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .verifyTopBarContainer p {
+    margin: 0 0 1rem 0;
+  }
+
+  nav .navContainer .menu {
+    left: -100%;
+    position: absolute;
+    top: 0;
+    background-color: var(--blue);
+    height: 100vh;
+    width: 70vw;
+    right: 0;
+    transition: 0.5s;
+    z-index: 999;
+  }
+
+  nav .navContainer .menu {
+    left: -100%;
+    position: absolute;
+    top: 0;
+    background-color: var(--blue);
+    height: 100vh;
+    width: 70vw;
+    right: 0;
+    transition: 0.5s;
+    z-index: 999;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  nav .navContainer .menu ul {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2rem 0 0 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    gap: 0;
+  }
+
+  nav .navContainer .menu ul li {
+    margin: 0 0 0.5rem 0;
+  }
+
+  header nav .navContainer .menu ul li a {
+    color: var(--white);
+    font-size: 1.1rem;
+  }
+
+  .accIcon {
+    color: var(--white);
+  }
+
+  nav .navContainer .showNav {
+    left: 0;
+    transition: 0.5s;
+  }
+
+  .mDisplayNone {
     display: none;
   }
 }

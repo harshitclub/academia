@@ -1,7 +1,13 @@
 import React from "react";
 import "./style.css";
-import { RiArrowRightUpLine } from "react-icons/ri";
-import campusSutrasLogo from "@/public/assets/campusSutrasLogo.png";
+import {
+  RiArrowRightUpLine,
+  RiFacebookBoxFill,
+  RiInstagramFill,
+  RiLinkedinBoxFill,
+  RiTwitterFill,
+} from "react-icons/ri";
+import campusSutrasLogo from "@/public/assets/csLogoWhite.png";
 import Image from "next/image";
 
 function Footer() {
@@ -10,118 +16,91 @@ function Footer() {
       <div className="footer width95 maxWidth flexColumn">
         <div className="footerTabs flex alignStart justifyCenter spaceBtw">
           <div className="footerTab">
-            <h4>&nbsp;&nbsp;&nbsp;&nbsp;Pages</h4>
+            <h4>Pages</h4>
             <ul>
               <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Home
-                </a>
+                <a href="/"></a>
               </li>
               <li>
-                <a href="/profile">
-                  <RiArrowRightUpLine className="fIcons" /> Account
-                </a>
+                <a href="/profile">Account</a>
               </li>
               <li>
-                <a href="/about">
-                  <RiArrowRightUpLine className="fIcons" /> About
-                </a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="/contact">
-                  <RiArrowRightUpLine className="fIcons" /> Contact
-                </a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
           </div>
           <div className="footerTab">
-            <h4>&nbsp;&nbsp;&nbsp;&nbsp;Courses</h4>
+            <h4>Courses</h4>
             <ul>
               <li>
                 <a href="/data-analytics-using-power-bi">
-                  <RiArrowRightUpLine className="fIcons" /> Data Analytics Using
-                  PowerBI
+                  Data Analytics Using PowerBI
                 </a>
               </li>
               <li>
                 <a href="/data-analytics-using-excel">
-                  <RiArrowRightUpLine className="fIcons" /> Data Analytics Using
-                  Excel
+                  Data Analytics Using Excel
                 </a>
               </li>
               <li>
-                <a href="/business-communication">
-                  <RiArrowRightUpLine className="fIcons" /> Business
-                  Communication
+                <a href="/business-communication">Business Communication</a>
+              </li>
+              <li>
+                <a href="/ms-office-fundamentals">MS Office Fundamentals</a>
+              </li>
+              <li>
+                <a href="/hello-corporate">Hello Corporate</a>
+              </li>
+              <li>
+                <a href="/artificial-intelligence">Artificial Intelligence</a>
+              </li>
+              <li>
+                <a href="/art-of-entrepreneurship">Art of Entrepreneurship</a>
+              </li>
+              <li>
+                <a href="/catalog">All Courses</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footerTab">
+            <h4>Social</h4>
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/campussutras/"
+                >
+                  <RiLinkedinBoxFill className="fIcons" /> LinkedIn
                 </a>
               </li>
               <li>
-                <a href="/ms-office-fundamentals">
-                  <RiArrowRightUpLine className="fIcons" /> MS Office
-                  Fundamentals
+                <a target="_blank" href="https://facebook.com/campussutras">
+                  <RiFacebookBoxFill className="fIcons" /> Facebook
                 </a>
               </li>
               <li>
-                <a href="/hello-corporate">
-                  <RiArrowRightUpLine className="fIcons" /> Hello Corporate
+                <a target="_blank" href="https://twitter.com/campussutras">
+                  <RiTwitterFill className="fIcons" /> Twitter
                 </a>
               </li>
               <li>
-                <a href="/artificial-intelligence">
-                  <RiArrowRightUpLine className="fIcons" /> Artificial
-                  Intelligence
-                </a>
-              </li>
-              <li>
-                <a href="/art-of-entrepreneurship">
-                  <RiArrowRightUpLine className="fIcons" /> Art of
-                  Entrepreneurship
-                </a>
-              </li>
-              <li>
-                <a href="/catalog">
-                  <RiArrowRightUpLine className="fIcons" /> All Courses
+                <a target="_blank" href="https://instagram.com/campussutras">
+                  <RiInstagramFill className="fIcons" /> Instagram
                 </a>
               </li>
             </ul>
           </div>
           <div className="footerTab">
-            <h4>&nbsp;&nbsp;&nbsp;&nbsp;Social</h4>
+            <h4>Legal</h4>
             <ul>
               <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> LinkedIn
-                </a>
+                <a href="/privacy-and-policy">Privacy & Policy</a>
               </li>
               <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Facebook
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Twitter
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Instagram
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="footerTab">
-            <h4>&nbsp;&nbsp;&nbsp;&nbsp;Legal</h4>
-            <ul>
-              <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Privacy & Policy
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <RiArrowRightUpLine className="fIcons" /> Terms & Conditions
-                </a>
+                <a href="/terms-and-conditions">Terms & Conditions</a>
               </li>
             </ul>
           </div>

@@ -19,8 +19,8 @@ function page() {
         h2="Become an Expert With This Ms Office Fundamentals Course"
         p1="MS Office Fundamentals is a comprehensive course designed to provide individuals with essential skills and knowledge to effectively utilize the suite of Microsoft Office applications. Microsoft Office is a widely used productivity suite that includes popular applications such as Microsoft Word, Excel, PowerPoint, Outlook, and more."
         p2="Proficiency in MS Office is essential in various professional settings, enabling individuals to create, edit, organize, and present information efficiently. The MS Office Fundamentals course covers the core features and functionalities of each application, equipping participants with a solid foundation to maximize their productivity and effectiveness in the workplace."
-        price={7999}
-        disPrice={1599}
+        price={89999}
+        disPrice={179998}
         disPercentage={50}
         duration="40 Hours"
         image={msoffice}

@@ -18,8 +18,8 @@ function page() {
         h2="Become an Expert With This GPT v3.5 & GPT v4.0 Course"
         p1="GPT (Generative Pre-trained Transformer) v3.5 and GPT v4.0 are advanced language models developed by OpenAI. These models are part of the GPT series, which have achieved remarkable success in the field of natural language processing (NLP) and artificial intelligence (AI). They are based on the Transformer architecture, which allows them to process and generate human-like text."
         p2="GPT v3.5 and GPT v4.0 build upon the success of their predecessors by incorporating significant improvements in terms of model size, training methodology, and performance. These models are pre-trained on massive amounts of text data from the internet, enabling them to learn the statistical patterns and linguistic structures present in natural language."
-        price={7999}
-        disPrice={1599}
+        price={31450}
+        disPrice={62900}
         disPercentage={50}
         duration="40 Hours"
         image={gpt}

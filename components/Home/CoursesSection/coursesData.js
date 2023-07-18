@@ -1,55 +1,49 @@
-import dapbi from "@/public/assets/dapbi.jpg";
+import hello from "@/public/assets/cSkills.jpg";
 import tableau from "@/public/assets/tableau.jpg";
 import msoffice from "@/public/assets/msoffice.jpg";
 import cyberSecurity from "@/public/assets/cybersecurity.jpg";
-import entre from "@/public/assets/entrepreneurship.jpg";
+import artificial from "@/public/assets/ai.jpg";
 
 export const courses = [
   {
-    id: 2,
-    image: entre,
-    course: "Art of Entrepreneurship",
-    duration: "6 Months",
-    time: "2-3 Hrs",
-    mode: "Offline",
-    link: "/art-of-entrepreneurship",
-  },
-
-  {
     id: 5,
-    image: dapbi,
-    course: "Data Analysis Using Power Bi",
-    duration: "6 Months",
-    time: "2-3 Hrs",
-    mode: "Offline",
-    link: "/data-analysis-using-power-bi",
+    image: hello,
+    course: "Hello Corporate",
+    duration: "40 Hours",
+
+    link: "/hello-corporate",
+  },
+  {
+    id: 2,
+    image: artificial,
+    course: "Artificial Intelligence",
+    duration: "40 Hours",
+
+    link: "/artificial-intelligence",
   },
 
   {
     id: 7,
     image: tableau,
     course: "Tableau",
-    duration: "6 Months",
-    time: "2-3 Hrs",
-    mode: "Offline",
+    duration: "40 Hours",
+
     link: "/tableau",
   },
   {
     id: 8,
     image: msoffice,
-    course: "Ms Office Fundamentals",
-    duration: "6 Months",
-    time: "2-3 Hrs",
-    mode: "Offline",
-    link: "/ms-office-fundamentals",
+    course: "Business Communication",
+    duration: "40 Hours",
+
+    link: "/business-communication",
   },
   {
     id: 9,
     image: cyberSecurity,
     course: "Cyber Security",
-    duration: "6 Months",
-    time: "2-3 Hrs",
-    mode: "Offline",
+    duration: "40 Hours",
+
     link: "cyber-security",
   },
 ];

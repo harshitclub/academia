@@ -19,10 +19,10 @@ function Hero() {
               <div className="heroDivider2"></div>
               <div className="heroBtns flex">
                 <div className="heroBtn">
-                  <a href="/">Explore Courses</a>
+                  <a href="/login">Login</a>
                 </div>
                 <div className="heroBtn">
-                  <a href="/">About Us</a>
+                  <a href="/">About</a>
                 </div>
               </div>
             </div>

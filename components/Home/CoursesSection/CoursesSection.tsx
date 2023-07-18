@@ -1,10 +1,7 @@
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
 import "./style.css";
 import { courses } from "./coursesData";
 import Image from "next/image";
-import { RiCalendarLine, RiPencilLine, RiTimeLine } from "react-icons/ri";
+import { RiCalendarLine } from "react-icons/ri";
 
 function CoursesSection({ heading }: { heading: string }) {
   return (
@@ -28,15 +25,6 @@ function CoursesSection({ heading }: { heading: string }) {
                       <RiCalendarLine className="courseSIcon" /> |{" "}
                       {item.duration}
                     </p>
-                    <p>
-                      <RiTimeLine className="courseSIcon" /> | {item.time}
-                    </p>
-                    <p className="marginBottom1">
-                      <RiPencilLine className="courseSIcon" /> | {item.mode}
-                    </p>
-                    <p>
-                      <a href={item.link}>Book Now</a>
-                    </p>
                   </div>
                 </div>
               </>
@@ -44,7 +32,7 @@ function CoursesSection({ heading }: { heading: string }) {
           })}
         </div>
         <p>
-          <a href="/catalog">All Courses</a>
+          <a href="/catalog">Explore More</a>
         </p>
       </div>
     </section>

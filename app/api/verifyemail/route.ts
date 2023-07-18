@@ -1,4 +1,5 @@
 import { connect } from "@/db/dbConfig";
+import { sendVoucher } from "@/helpers/voucherMail";
 import User from "@/models/userModel";
 import { NextResponse, NextRequest } from "next/server";
 
@@ -21,6 +22,14 @@ export async function POST(request: NextRequest){
         user.verifyToken = undefined
         user.verifyTokenExpiry =undefined
         await user.save()
+
+        // send voucher
+    await sendVoucher({
+      email: user.email,
+      name:user.fullName,
+      emailType: "VOUCHEREMAIL",
+      userId: user._id,
+    });
 
         return NextResponse.json({
             message:"Email verified Successfully",

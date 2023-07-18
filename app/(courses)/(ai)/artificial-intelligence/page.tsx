@@ -18,8 +18,8 @@ function page() {
         h2="Become an Expert With This Artificial Intelligence Course"
         p1="Artificial Intelligence (AI) is a transformative technology that aims to replicate human intelligence in machines. It encompasses a wide range of techniques and algorithms that enable machines to perceive, understand, reason, learn, and make decisions."
         p2="AI has the potential to revolutionize numerous industries and sectors, including healthcare, finance, transportation, and manufacturing. One of the key areas within AI is machine learning, where machines are trained to learn from data and improve their performance over time."
-        price={7999}
-        disPrice={1599}
+        price={31450}
+        disPrice={62900}
         disPercentage={50}
         duration="40 Hours"
         image={ai}

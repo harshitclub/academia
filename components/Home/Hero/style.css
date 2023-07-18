@@ -93,6 +93,20 @@
 @media screen and (min-width: 200px) and (max-width: 480px) {
   .hero .heroContainer .heroContainerChild {
     flex-direction: column;
+    padding: 2rem 0 4rem 0;
+  }
+
+  .hero .heroContainer .heroContainerChild .heroCCLeft h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .hero .heroContainer .heroContainerChild .heroCCLeft h2 {
+    font-size: 1.3rem;
+  }
+
+  .hero .heroContainer .heroContainerChild .heroCCLeft h3 {
+    font-size: 1.1rem;
   }
 
   .hero .heroContainer .heroContainerChild .heroCCLeft {

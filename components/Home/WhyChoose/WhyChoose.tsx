@@ -2,7 +2,10 @@ import React from "react";
 import "./style.css";
 import { HiChevronDoubleDown } from "react-icons/hi";
 import BigDivider from "@/components/BigDivider/BigDivider";
-import { RiParentFill, RiSlideshowFill, RiStackFill } from "react-icons/ri";
+import Image from "next/image";
+import whyImage1 from "@/public/assets/whyimage1.jpg";
+import whyImage2 from "@/public/assets/whyimage2.jpg";
+import whyImage3 from "@/public/assets/whyimage3.jpg";
 
 function WhyChoose() {
   return (
@@ -19,48 +22,55 @@ function WhyChoose() {
         </p>
         <div className="whyChooseTab flex alignStart justifyCenter spaceBtw width100">
           <div className="whyChooseTBox">
-            <RiParentFill className="whyIcons" />
-            <h4>
-              Expert Faculty <HiChevronDoubleDown className="whyChooseIcons" />
-            </h4>
-            <div className="whyChooseBoxDivider"></div>
-            <div className="whyChooseBoxDivider2"></div>
-            <p>
-              Our courses are crafted and delivered by a team of experienced
-              instructors who are passionate about education. They bring a
-              wealth of knowledge and practical insights to guide you through
-              your learning journey.
-            </p>
+            <Image src={whyImage1} alt="" />
+            <div className="whyChooseTBoxContent">
+              <h4>
+                Outcome Centric Learning{" "}
+                <HiChevronDoubleDown className="whyChooseIcons" />
+              </h4>
+              <div className="whyChooseBoxDivider"></div>
+              <div className="whyChooseBoxDivider2"></div>
+              <p>
+                At Campus Sutras, we believe in the power of outcome-centric
+                learning and growth. Gone are the days of rote memorization and
+                generic education. In today's fast-paced world, it's essential
+                and crucial to focus on tangible outcomes that drive success.
+              </p>
+            </div>
           </div>
           <div className="whyChooseTBox">
-            <RiSlideshowFill className="whyIcons" />
-            <h4>
-              Tailored Learning Just for You{" "}
-              <HiChevronDoubleDown className="whyChooseIcons" />
-            </h4>
-            <div className="whyChooseBoxDivider"></div>
-            <div className="whyChooseBoxDivider2"></div>
-            <p>
-              We customize education to your unique needs. Our courses create
-              dynamic and engaging learning environments, where you can actively
-              participate, ask questions, and receive personalized attention
-              from our expert tutors.
-            </p>
+            <Image src={whyImage2} alt="" />
+            <div className="whyChooseTBoxContent">
+              <h4>
+                Pre & Post Assessment{" "}
+                <HiChevronDoubleDown className="whyChooseIcons" />
+              </h4>
+              <div className="whyChooseBoxDivider"></div>
+              <div className="whyChooseBoxDivider2"></div>
+              <p>
+                At Campus Sutras, we believe in the power of assessment to gauge
+                your learning journey. That's why we incorporate pre and post
+                assessments into our training programs, ensuring a comprehensive
+                understanding of your progress and growth.
+              </p>
+            </div>
           </div>
           <div className="whyChooseTBox">
-            <RiStackFill className="whyIcons" />
-            <h4>
-              Practical Application{" "}
-              <HiChevronDoubleDown className="whyChooseIcons" />
-            </h4>
-            <div className="whyChooseBoxDivider"></div>
-            <div className="whyChooseBoxDivider2"></div>
-            <p>
-              At Campus Sutras, we prioritize practical knowledge application.
-              Our courses feature hands-on projects, case studies, and industry
-              examples, empowering you with valuable skills and insights for
-              immediate real-world impact.
-            </p>
+            <Image src={whyImage3} alt="" />
+            <div className="whyChooseTBoxContent">
+              <h4>
+                Post Training Support{" "}
+                <HiChevronDoubleDown className="whyChooseIcons" />
+              </h4>
+              <div className="whyChooseBoxDivider"></div>
+              <div className="whyChooseBoxDivider2"></div>
+              <p>
+                Our commitment to your professional development goes beyond the
+                completion of a program. We know that ongoing support is crucial
+                for continued growth and success. That's why we offer
+                comprehensive post-training support to you.
+              </p>
+            </div>
           </div>
         </div>
       </div>

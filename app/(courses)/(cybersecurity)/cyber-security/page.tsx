@@ -18,8 +18,8 @@ function page() {
         h2="Become an Expert With This Cyber Security Course"
         p1="Cybersecurity is a critical field that focuses on protecting computer systems, networks, and digital data from unauthorized access, damage, and malicious attacks. In today's interconnected world, where businesses, organizations, and individuals rely heavily on technology, the importance of cybersecurity cannot be overstated."
         p2="The field of cybersecurity encompasses various practices, technologies, and strategies aimed at securing digital assets. It involves identifying vulnerabilities, implementing protective measures, and responding to incidents effectively. Cybersecurity professionals work diligently to stay ahead of cyber threats, constantly evolving their skills and knowledge to counter ever-evolving attack techniques."
-        price={7999}
-        disPrice={1599}
+        price={23750}
+        disPrice={47500}
         disPercentage={50}
         duration="40 Hours"
         image={cybersecurity}
